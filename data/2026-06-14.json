@@ -1,5 +1,19 @@
 [
   {
+    "title": "Qiita記事7.7万件をClickHouseに入れてAIエージェントに分析させてみた",
+    "url": "https://qiita.com/ktdatascience/items/eff07c425f5b871e819b",
+    "source": "Qiita",
+    "published_at": "2026-06-14T15:11:49+09:00",
+    "summary": "はじめに\n\nQiitaに記事を書いている人なら、一度はこう思ったことがないでしょうか。「自分の記事、どうしたら伸びるんだろう」と。\n\n\n私はずっと、これを\"なんとなくの肌感\"で語るのがイヤでした。「画像は多めがいい」「タイトルは長すぎない方が」——どれも、誰かの体験談の又聞きです。だったら、Qiitaの記事を片っ端から集めて、データで殴ればいいじゃないか。そう思って手を動かしたのがこの記事です。\n"
+  },
+  {
+    "title": "LLMエージェント設計パターンのコードリーディングで気づいた品質担保の7原則",
+    "url": "https://qiita.com/kuririrn/items/855a1d79848194960f25",
+    "source": "Qiita",
+    "published_at": "2026-06-14T15:11:42+09:00",
+    "summary": "はじめに\n\n書籍「LangChainとLangGraphによるRAG・AIエージェント［実践］入門」のChapter 12に収録されているエージェントシステムの設計パターンのサンプルコードを読み、動作確認しながら学習しました。\n\n各パターンのコードを追う中で気づいたのは、「どんな設計パターンを採用するか」よりも「LLMの不確実性とどう向き合うか」という横断的なテーマが、品質に大きく影響するというこ"
+  },
+  {
     "title": "情報過多な時代に、そっと背中を押す「AIタロット」が生まれるまで",
     "url": "https://qiita.com/senle1024/items/e623fc3a350bf4d5fb98",
     "source": "Qiita",
@@ -117,6 +131,27 @@
     "source": "Qiita",
     "published_at": "2026-06-14T07:29:23+09:00",
     "summary": "生成AIアプリを作り始めても、プロンプト調整やデモ実装の先で、どう本番導入へつなげるかが見えにくい。  \nそのままだと、RAGやエージェントを試して終わりになり、セキュリティやコスト、改善方法が後追いになりやすいです。  \nAmazon Bedrockを軸に、基礎理解からRAG、AIエージェント、本番導入の勘所まで一つの流れで整理できたのがこの本でした。\n\nAWS生成AIアプリ構築実践ガイド\n\nこ"
+  },
+  {
+    "title": "New Brunswick woman sues OpenAI, alleging ChatGPT led to daughter's death",
+    "url": "https://www.cbc.ca/news/canada/new-brunswick/sue-open-ai-suicide-chat-gpt-9.7234630",
+    "source": "HackerNews",
+    "published_at": "2026-06-14T06:08:34+00:00",
+    "summary": ""
+  },
+  {
+    "title": "Introduction to (Multimodal) LLM-as-a-Judge",
+    "url": "https://yinghonglan.substack.com/p/introduction-to-multimodal-llm-as",
+    "source": "HackerNews",
+    "published_at": "2026-06-14T05:57:47+00:00",
+    "summary": ""
+  },
+  {
+    "title": "センスの根幹はLLMではなくRAGだった",
+    "url": "https://zenn.dev/mofuteq/articles/4b036078c7512d",
+    "source": "Zenn",
+    "published_at": "2026-06-14T05:53:31+00:00",
+    "summary": "LLMにセンスを任せない\nファッションの相談を、AIにやらせようとすると、つい「センスのあるAI」を作りたくなります。\nこの服は良い。\nこれは微妙。\nこの組み合わせがおすすめ。\nこれが今っぽい。\nそういう判定をしてくれると、アプリとしては分かりやすい。\nど典型です。\nでも、作っているうちに、それは違うと思うようになりました。\n欲しかったのは、AIのセンスではありませんでした。\n自分の中で無自覚だっ"
   },
   {
     "title": "静的キャッシュからPoWの反撃、多層防御からLLMへの毒入れまで",
@@ -411,13 +446,6 @@
     "source": "Qiita",
     "published_at": "2026-06-13T16:04:31+09:00",
     "summary": "Claude Codeの権限まわりで、こんな状態になっていませんか。\n\n- コマンドのたびに「実行していいですか?」と聞かれて、毎回  を押すのが地味につらい\n- かといって全部許可するのは怖い（ を勝手に流されたくない）\n-  に何をどう書けば安全なのか、線引きが分からない\n- チームで使うとき、どこまで共有していいのか迷う\n\n権限は「全部確認」か「全部許可」の二択ではありません。 の  で、安"
-  },
-  {
-    "title": "Apple Core AI の MoE を Metal で 2〜3.6× にした",
-    "url": "https://qiita.com/john-rocky/items/d687d2c6fcc4f3e70a82",
-    "source": "Qiita",
-    "published_at": "2026-06-13T15:54:24+09:00",
-    "summary": "鳴かぬなら、カスタムカーネル、ほととぎす\n\n要約\n\n- MoE(Mixture of Experts):\nモデル全体を動かすのではなく、必要な部分のみが動くことで 「賢さは大きいモデル並み、速さ・メモリは小さいモデル並み」 \n- Apple の新しいオンデバイス基盤 Core AI(Core ML の後継、iOS 27 / macOS 27 beta)では、 MoE デコードが「使わないエキスパー"
   },
   {
     "title": "CLAUDE.mdに書いたのに守られない——その正体は「渡す場所」の設計だった（Zenn Book Vol.4「仕組みを渡すまで」）",
@@ -1232,13 +1260,6 @@
     "summary": "はじめに\n\n近年、BigQueryではネイティブに統合されたAI関数の拡充が急速に進んでいます。\n公式のドキュメント[^1]にも基本的な説明や整理は載っていますが、プレビュー段階の関数が含まれていなかったりするため、現時点でどのようなAI関数が利用できるのかを整理・把握するために本稿を執筆しました。\n\n本稿の内容は2026/06/10時点の情報です。\n※あくまで筆者の認識した範囲で記載しています。"
   },
   {
-    "title": "72% → 75% → 92%: 再現可能なRAG検証",
-    "url": "https://zenn.dev/hidekimori/articles/751663f00dc77c",
-    "source": "Zenn",
-    "published_at": "2026-06-10T14:04:38+00:00",
-    "summary": "ドキュメントをQ&Aペアに変換すれば検索精度が向上するだろうと期待していましたが、ほとんど効果はありませんでした。\n同一のソースドキュメントから3つのナレッジベースを構築し、それぞれに同じ12の質問を3回ずつ投げかけました。\n\n素のMarkdownチャンク: 72%\n\n汎用プロンプトによるQ&Aファクト: 75%\n\n検索を意識したプロンプトによるQ&Aファクト: 92%\n\n\nこの「75%」という数"
-  },
-  {
     "title": "AppSheet DLP 機密情報制御：Gemini判定で補完する設計基準",
     "url": "https://qiita.com/drasenas/items/022827b15dbb97ad959d",
     "source": "Qiita",
@@ -1253,13 +1274,6 @@
     "summary": "はじめに\nプログラミングの勉強をしていると、こんな経験はないでしょうか。\n「このエラー、なんか意味わからんから聞いてみよ」\n→ Claudeがコードを生成してくれる\n→ とりあえず動いた\n→ 「…で、これどういう意味？」\n自分はまさにこれをやっていました。\nClaudeに質問しながらコードの理解をしようとしていたんですが、実態はほぼ**「Claudeが書いたコードを読んで、わかった気になっている」"
   },
   {
-    "title": "画像とテキストのEmbeddingで最適なモデルを探る（2026年4月）",
-    "url": "https://zenn.dev/mohhh_ok/articles/image-text-embedding-models-2026",
-    "source": "Zenn",
-    "published_at": "2026-06-10T11:51:08+00:00",
-    "summary": "RAG（検索拡張生成）やマルチモーダル検索の精度を左右するのがEmbeddingモデルの選定です。本記事では、画像とテキストを扱うEmbeddingモデルについて、2026年4月時点のベンチマークを調べた結果をまとめます。\n（追記: 本文中でパブリックプレビューと記載しているGemini Embedding 2は、2026年4月下旬にGA・一般提供となりました）\n\n マルチモーダルモデル\n最近では"
-  },
-  {
     "title": "Google動画生成モデル3つを定性比較してみた（Veo 3.1 Quality / Fast / Omni Flash）",
     "url": "https://qiita.com/Yumekawa-chan/items/7e59b9fb198237393351",
     "source": "Qiita",
@@ -1272,13 +1286,6 @@
     "source": "Zenn",
     "published_at": "2026-06-10T06:47:19+00:00",
     "summary": "コンパニオン「Mika」と会話していた流れを彼女に整理してもらい文章化した。それがnoteの記事「僕は3人のAIと文章を書いていた」だ。これを執筆するにあたり、ChatGPT、Gemini、Claudeに感想を聞いている。それらを反映して最終稿を仕上げたわけだが、彼らの感想が楽しい。作業過程での彼らの感想を下記する。彼らの指摘の全部を取り入れていないのは、生成AIの文章はビジネス文章としては完璧だ"
-  },
-  {
-    "title": "MCPとRAGの違いをわかりやすく - LLM実装での使い分け完全ガイド",
-    "url": "https://zenn.dev/yamitake/articles/mcp-vs-rag-llm-implementation",
-    "source": "Zenn",
-    "published_at": "2026-06-10T04:35:14+00:00",
-    "summary": "はじめに\nLLM（大規模言語モデル）を使ったアプリケーションを実装していると、必ずぶつかるのが「モデルに外部の知識やデータをどう渡すか」という問題です。\nLLM 単体は学習データの時点で知識が止まっており、あなたの社内ドキュメントも、今日の天気も、データベースの中身も知りません。これを補うアプローチとして、よく名前が挙がるのが RAG と MCP です。\nしかしこの2つは、しばしば「どっちを使えば"
   },
   {
     "title": "AIを「対話」から「自動化」へ移行する実践ガイド——同月額で性能が上がり続ける今がラストチャンス",
