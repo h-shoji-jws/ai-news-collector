@@ -133,6 +133,13 @@
     "summary": "生成AIアプリを作り始めても、プロンプト調整やデモ実装の先で、どう本番導入へつなげるかが見えにくい。  \nそのままだと、RAGやエージェントを試して終わりになり、セキュリティやコスト、改善方法が後追いになりやすいです。  \nAmazon Bedrockを軸に、基礎理解からRAG、AIエージェント、本番導入の勘所まで一つの流れで整理できたのがこの本でした。\n\nAWS生成AIアプリ構築実践ガイド\n\nこ"
   },
   {
+    "title": "Superpowers for Claude, Codex etc.",
+    "url": "https://github.com/obra/superpowers",
+    "source": "HackerNews",
+    "published_at": "2026-06-14T06:40:32+00:00",
+    "summary": ""
+  },
+  {
     "title": "New Brunswick woman sues OpenAI, alleging ChatGPT led to daughter's death",
     "url": "https://www.cbc.ca/news/canada/new-brunswick/sue-open-ai-suicide-chat-gpt-9.7234630",
     "source": "HackerNews",
