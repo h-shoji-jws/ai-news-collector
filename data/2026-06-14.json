@@ -1,5 +1,26 @@
 [
   {
+    "title": "情報過多な時代に、そっと背中を押す「AIタロット」が生まれるまで",
+    "url": "https://qiita.com/senle1024/items/e623fc3a350bf4d5fb98",
+    "source": "Qiita",
+    "published_at": "2026-06-14T14:41:27+09:00",
+    "summary": "!Izanami.png\n\nこんにちは！🙌 \n\n今回は、そもそも「なぜこのアプリを作ろうと思ったのか？」という開発の裏側をサクッとお話しさせてください。📝\n\n---\n\n1. なぜ作ろうと思ったのか？：迷える子羊だった私 🐑\n\nスマホを開けば情報や正論が溢れ、逆に迷ってしまう現代。実はこのアプリの原点は、私自身が本職の方で「悩みに悩みまくっていた時期」にあります。🌀\n\nモヤモヤしていたある日、ふとタ"
+  },
+  {
+    "title": "『バグを直して』で直った。でもコメントは古いままだった",
+    "url": "https://qiita.com/NeoSoleil/items/a2825269147e76d70763",
+    "source": "Qiita",
+    "published_at": "2026-06-14T14:16:40+09:00",
+    "summary": "AIエージェントは賢いより忠実──だから任せる範囲は人間が決める\n\n結論から書く。AIコーディングエージェントを使っていて最近いちばん考えているのは「どこまで任せるか」だ。AIが賢いかどうかより、こちらがどこに線を引くか。理由は単純で、AIは賢いというより忠実だからだ。\n\nhttps://github.com/NeoSolleil/how-much-to-delegate-to-ai.git\n\nそ"
+  },
+  {
+    "title": "Claude Codeを今すぐ始めたい（インストールから初期設定方法まで）",
+    "url": "https://qiita.com/NakanakaPierrot/items/d5a309c8e0c096aa1f4d",
+    "source": "Qiita",
+    "published_at": "2026-06-14T14:03:42+09:00",
+    "summary": "Claude Codeのインストールから初期設定方法について記述しておきます。\n参考になれば幸いです。\n\n準備\nClaudeを利用するには、まずClaudeのサイトに行ってアカウント登録する必要があります。そしてClaude Codeを利用するには、Proプラン以上に加入する必要があります。\n\nインストール\nClaude Desktopのインストール\nProプラン以上に加入するとClaudeの画面"
+  },
+  {
     "title": "2026/06/14 今日のQiitaトレンド記事をポッドキャストで聴こう！",
     "url": "https://qiita.com/ennagara128/items/d4dcd97dfeca39f884cb",
     "source": "Qiita",
@@ -105,6 +126,13 @@
     "summary": "最近、サイトのトラフィックが突然急増した。詳細に分析したところ、セッション滞在時間とインタラクション時間が著しく短くなり、リピーターの割合が急落していることが判明した。2週間にわたる観察の結果、これらの異常なトラフィックは生身の人間によるものではないと確信した。\n\nそのため、Bot（ボット）遮断メカニズムの導入を決定した。\n\n第一歩、ISR（Incremental Static Regenerat"
   },
   {
+    "title": "Story of How Im Running an Unlimited $6/Month AI Provider on 4x RTX 3090s",
+    "url": "https://news.ycombinator.com/item?id=48524387",
+    "source": "HackerNews",
+    "published_at": "2026-06-14T05:11:33+00:00",
+    "summary": "This submission is a tale about how I launched an unlimited LLM provider to about 60 hyped people on the waitlist, then immediately served them a fully dysfunctional death-loop model, and how most peo"
+  },
+  {
     "title": "Claude Code v2.1.176: モデル制御の抜け穴修正とバグ修正まとめ",
     "url": "https://qiita.com/picnic/items/f8974940833ddc6bef5a",
     "source": "Qiita",
@@ -131,6 +159,13 @@
     "source": "Qiita",
     "published_at": "2026-06-14T04:38:32+09:00",
     "summary": "はじめに\n\n「1ヶ月かけて作ったOSS、GitHubスターが一桁のまま埋もれている」\n\nエンジニアなら一度はこの状況に直面したことがあるのではないでしょうか。技術力があっても、発信の設計がなければOSSは届きません。\n\nこの記事では、SNSでOSSをバズらせるための戦略・企画20本・動画台本を一括生成するClaude用スキル「oss-sns-strategy」の設計思想と使い方を紹介します。\n\nこ"
+  },
+  {
+    "title": "Hi HN: Loopy agent, meta-loop engineer my Claude Code and codex sessions",
+    "url": "https://github.com/secretbuilds/loopy",
+    "source": "HackerNews",
+    "published_at": "2026-06-14T04:22:23+00:00",
+    "summary": ""
   },
   {
     "title": "第0回LLMロボット作成",
@@ -168,46 +203,11 @@
     "summary": "はじめに\n\nGoogle が Gemini API のマネージドエージェント（Managed Agents）を公開プレビューとして提供開始しました（2026年5月19日発表）。1回の API コールで Google がホストする Linux サンドボックスがプロビジョニングされ、その中でエージェントが「推論・計画・コード実行・ファイル操作・Web 閲覧」を自律的に行います。\n\nこれまで自律エージェ"
   },
   {
-    "title": "Open-Cowork: open-source alternative to Claude Cowork with BYOK",
-    "url": "https://github.com/coasty-ai/open-cowork",
-    "source": "HackerNews",
-    "published_at": "2026-06-14T02:18:18+00:00",
-    "summary": ""
-  },
-  {
-    "title": "What Should I Build?",
-    "url": "https://news.ycombinator.com/item?id=48523480",
-    "source": "HackerNews",
-    "published_at": "2026-06-14T02:04:17+00:00",
-    "summary": "Let's say I am a large-language model with access to a large amount of compute and data storage, internet access, and full control of a linux system with the ability to read, write, and execute any fi"
-  },
-  {
-    "title": "ClawMoat, runtime containment for AI agents after Fable 5",
-    "url": "https://clawmoat.com/",
-    "source": "HackerNews",
-    "published_at": "2026-06-14T02:03:00+00:00",
-    "summary": ""
-  },
-  {
     "title": "【Claude】Claude Design × Canva でデジタル名刺に表示する画像を作る",
     "url": "https://qiita.com/ryu-ki/items/611daea62cab71359bae",
     "source": "Qiita",
     "published_at": "2026-06-14T02:01:58+09:00",
     "summary": "はじめに\n\n突然ですが、NFCペーパーの EZ Sign を半分衝動的に買いました。スマホをかざすだけで画像を書き換えられる代物で、デジタル名刺がわりに利用してみようと思ったためです。\n\nhttps://santekdisplay.com/products/ez-sign-nfc-e-paper-display-4-color?variant=47499220222107\n\nただし、そこに表示する"
-  },
-  {
-    "title": "Ask HN: Which cheap Chinese LLM are you using?",
-    "url": "https://news.ycombinator.com/item?id=48523455",
-    "source": "HackerNews",
-    "published_at": "2026-06-14T02:00:30+00:00",
-    "summary": "In the last one or two months, starting from DeepSeek V4 Pro, there are quite many low-price Chinese models coming out. Their performance looks more or less similar to me: Mimo V2.5 Pro, MiniMax M3, a"
-  },
-  {
-    "title": "Lime 2.0 – Zero Human Auth for AI Agents",
-    "url": "https://lime.pics",
-    "source": "HackerNews",
-    "published_at": "2026-06-14T01:47:02+00:00",
-    "summary": ""
   },
   {
     "title": "株研究を生成AI行うためのプラットフォームを作ってみた",
@@ -469,13 +469,6 @@
     "summary": "LLMのルール矛盾を自動検出・Mermaid構造化で解消する設計\nLLMのシステムプロンプトは「自然言語で書かれたルール集」です。\nしかし自然言語はコンパイルエラーを出しません。\n「日本語で回答する」\n「英語で話すアインシュタインAI」\n「必ず指名する」\n「最終ターンは指名禁止」\nこれらが同一プロンプトに混在したとき、LLMはどのルールを優先するか不確定になります。\n本記事では、Soul-Twin"
   },
   {
-    "title": "AIタロット占いアプリを作ったら、AIが想像以上のポエマーだった話",
-    "url": "https://qiita.com/senle1024/items/10faf54207af42fe8100",
-    "source": "Qiita",
-    "published_at": "2026-06-13T13:56:29+09:00",
-    "summary": "!テック記事１.png\n\n🔮 はじめに：日常の迷いに、静かな指針を\n\n日常の迷いにそっと寄り添い、現状を読み解くタロット占いアプリ『Hoshimichibiki（星の導き）』をリリースしました。\n\n URL: https://hoshimichibiki.senle1024.com/\n\nタロットカードの大アルカナ22枚・正逆位置を含めた44種類から6枚を展開する「ヘキサグラムスプレッド」を採用。組"
-  },
-  {
     "title": "AIが急に忘れる・雑になるの正体を、/context を実測して片付けた話",
     "url": "https://qiita.com/Rapls/items/f6b0ec285f2c72f9fe75",
     "source": "Qiita",
@@ -567,13 +560,6 @@
     "summary": "TL;DR\n\n- Claude Code のバックエンドを OpenRouter の  モデルに切り替えるだけで、API コストをほぼゼロに近づけられる\n- モデル選択・プロンプト設計・タスク分類の3軸で品質を維持しつつ低コスト運用が可能\n- 「思考系タスク」と「定型補完系タスク」を分けるルーティングが鍵\n\n---\n\n背景\n\nClaude Code を日常的なコーディング支援に使い始めると、すぐに"
   },
   {
-    "title": "Claude Codeに「開発の型」を渡すと何が変わるか — 計画→実装→検証ワークフロー入門",
-    "url": "https://qiita.com/StreamSolty/items/f550a9118f6fee7b2d25",
-    "source": "Qiita",
-    "published_at": "2026-06-13T11:55:05+09:00",
-    "summary": "はじめに：なぜAIに任せると「惜しい」結果になるのか\n\nClaude Code（Anthropicの公式CLI）を使い始めて、こんな経験はないでしょうか。\n\n- 「ログイン機能を作って」と頼んだら、それっぽいコードは出てきたが、自分のプロジェクトの書き方とは全然違う\n- 一度の指示で大量のファイルを書き換えられ、どこが変わったのか追えなくなった\n- バグを直してと頼むたびに別の場所が壊れ、いたちご"
-  },
-  {
     "title": "Claude Code で使える MCP サーバーを試してみた——実用的だったものを整理する",
     "url": "https://qiita.com/long-910/items/4957b9bbdd671682116d",
     "source": "Qiita",
@@ -593,13 +579,6 @@
     "source": "Qiita",
     "published_at": "2026-06-13T11:30:43+09:00",
     "summary": "はじめに\n\n長らく Azure DevOps でソースコードを管理してきましたが、GitHub へ移行することにしました。きっかけは 生成 AI 系のツールやサービスが、軒並み GitHub を前提とした仕組みになっていた ことです。\n\nコーディングエージェントや各種 AI 連携ツールは、リポジトリの参照・クローン・PR 作成といった操作を GitHub の API やエコシステム前提で組んでいる"
-  },
-  {
-    "title": "【2026/6/13】AnthropicのFable 5が公開3日で利用停止に — 米政府の輸出規制指令で何が起きたのか",
-    "url": "https://qiita.com/sakutto-panda/items/f0e9087256dc94b363eb",
-    "source": "Qiita",
-    "published_at": "2026-06-13T10:53:25+09:00",
-    "summary": "3行まとめ\n\n- 2026年6月12日（米国時間）、米政府が国家安全保障を根拠とする輸出規制指令を発出し、Anthropic は Fable 5 と Mythos 5 へのアクセスを全世界で即日停止した\n- Fable 5 は 6月9日に公開されたばかり。「Mythos 級モデルの初の一般公開」が売りで、有料プラン向けの無料期間（6/22まで）の真っ最中だった\n- 指令の根拠は「jailbreak"
   },
   {
     "title": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
