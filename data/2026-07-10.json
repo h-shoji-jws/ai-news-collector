@@ -1,0 +1,1549 @@
+[
+  {
+    "title": "744BのGLM-5.2を25GBのRAMで動かすcolibri、エキスパートをディスクから流す",
+    "url": "https://qiita.com/okssusucha/items/1b2fd1a897bbd6a5f63b",
+    "source": "Qiita",
+    "published_at": "2026-07-10T09:41:39+09:00",
+    "summary": "744Bのフロンティア級モデルを、GPUなしで、しかもRAMが25GBしかないノートPCで動かす。しかもちゃんと正しい答えを返す。そんな話をHacker NewsのShow HNで見かけて、最初は誇張だろうと思った。実際にリポジトリを読むと、誇張ではなかった。ただし正直な但し書きが付く。速度はおよそ0.1トークン/秒。夜通し回してようやく1本の返答、という世界だ。\n\n作者いわく「大事なのは、そこへ"
+  },
+  {
+    "title": "convertToModelMessagesの非同期化、型なしだと壊れたまま動いていた",
+    "url": "https://qiita.com/kai_kou/items/1797face8a42515e0681",
+    "source": "Qiita",
+    "published_at": "2026-07-10T09:36:40+09:00",
+    "summary": "はじめに\n\nVercel AI SDK（ パッケージ）は npm 週間ダウンロード数 1,514万件（2026-06-29〜07-05・npm公式レジストリAPI実測）のTypeScript向けAIツールキットです[^1]。メジャーバージョン6でエージェント抽象化  が追加された一方、地味だが実害の大きい破壊的変更が  に入っていました。\n\n同期関数だったものが非同期関数になり、しかも呼び出し側が"
+  },
+  {
+    "title": "社員がAIを安全に使える環境を整える　運用ガイドラインと社内教育の作り方【法人向けAI安全活用ガイド #3】",
+    "url": "https://qiita.com/keiichik_kk/items/bd5a86a1022670fdc7cc",
+    "source": "Qiita",
+    "published_at": "2026-07-10T09:36:40+09:00",
+    "summary": "> 連載：法人向けAI安全活用ガイド 初級編（全3回）\n> - 1 会社でAIを使う前に知っておくべきこと　情報漏洩リスクと社内ルールの作り方\n> - 2 AIツール導入時に確認すべき契約・規約のポイント\n> - 3 社員がAIを安全に使える環境を整える　運用ガイドラインと社内教育の作り方 ← 今ここ（最終回）\n\nはじめに\n\nルールを作り、ツールも選んだ。あとは社員に使ってもらうだけ——しかし、こ"
+  },
+  {
+    "title": "AIチャットボットとは何か｜問い合わせ対応を自動化する仕組みと中小企業での始め方",
+    "url": "https://qiita.com/DnD-inc/items/52f4127e98f00b67a183",
+    "source": "Qiita",
+    "published_at": "2026-07-10T09:19:53+09:00",
+    "summary": "AIチャットボットとは何か｜問い合わせ対応を自動化する仕組みと中小企業での始め方\n\n> 本記事は、株式会社DnD（https://dnd-inc.jp）のコラムを一部編集して掲載しています。\n> 初出: https://dnd-inc.jp/blog/ai-chatbot-inquiry-automation.html\n\n「問い合わせ対応に時間を取られて、本来の仕事が進まない」——多くの中小企業が"
+  },
+  {
+    "title": "G検定（JDLA）対策問題集をUdemyで公開しています｜全450問・2026年試験対応",
+    "url": "https://qiita.com/reiji-takeuchi/items/f439f5e203b97848e73d",
+    "source": "Qiita",
+    "published_at": "2026-07-10T09:09:16+09:00",
+    "summary": "はじめに\n\nG検定（JDLA Deep Learning for GENERAL）の対策教材として、Udemyにて模擬問題集コースを公開しています。\n\n本記事では講座の内容をご紹介します。記事の末尾に期間限定の受講クーポンを掲載していますので、興味のある方はぜひご覧ください。\n\n---\n\nコースの特徴\n\n2026年の試験形式（145問・100分・オンライン）に対応した全450問の演習特化型教材です"
+  },
+  {
+    "title": "LLMの返答を画面に出す前の、出力インジェクション対策チェックリスト【WordPressプラグイン】",
+    "url": "https://qiita.com/Rapls/items/79151c2e3c94cb9abf12",
+    "source": "Qiita",
+    "published_at": "2026-07-10T08:48:42+09:00",
+    "summary": "先に、いちばん大事な一行を書きます。LLMの返答は、ユーザーが打ち込んだ入力と同じくらい、信用できません。なのに多くの実装は、LLMの出力を「自前で作った安全なデータ」のように扱って、そのまま画面に流し込みます。ここが、出力インジェクションの入口です。\n\n自分は、AIチャットボットのプラグインを作っていて、リリース後に35個のバグを踏みました。いちばん怖かったのは、入力側ではなく、出力側でした。こ"
+  },
+  {
+    "title": "AIに「人間基準の生産性」を捨てさせたら、222日で12,499コミット・224リポジトリになった — Claude Code運用の実測記録",
+    "url": "https://qiita.com/abyo-software/items/caf8b82857f8eecd2e97",
+    "source": "Qiita",
+    "published_at": "2026-07-10T08:37:43+09:00",
+    "summary": "TL;DR\n\n- 1 人 + Claude Code で 2025-12 〜 2026-07-10 (222 日) に 12,499 コミット / 224 リポジトリ / コード 1,156 万行 (うち Rust 256 万行) を出した実測記録です (測定方法は文末)\n- 一番効いたのは技術ではなく、AI に「人間基準の生産性自己評価」をやめさせたこと\n- AI は放っておくと「このタスクは大"
+  },
+  {
+    "title": "生成的推薦:推薦を\"特徴量設計\"から\"次の商品を当てる言語モデル\"へ",
+    "url": "https://qiita.com/Yushi88/items/7175268db0cb6124561c",
+    "source": "Qiita",
+    "published_at": "2026-07-10T08:20:34+09:00",
+    "summary": "「あなたへのおすすめ」に代表される推薦システムは、EC から動画・音声アプリのフィードまで、ほぼすべてのプロダクトに入っている。その推薦を「特徴量を人手で設計する」やり方から「行動履歴を見て次の商品を当てる言語モデル」へ作り替える動きが、海外の大手で相次いで本番投入されている。これが 生成的推薦(Generative Recommendation) だ。行動履歴を文章のような並びとみなし、次の単語"
+  },
+  {
+    "title": "Midnight AI Groove 26-07-07",
+    "url": "https://qiita.com/masykot582/items/436c240f02394f65fd80",
+    "source": "Qiita",
+    "published_at": "2026-07-10T08:17:16+09:00",
+    "summary": "https://news.smol.ai/issues/26-07-07-not-much\n\nDJミオ：こんばんは、「Midnight AI Groove」の時間です。ナビゲーターのDJミオです。\n\nDJレン：DJレンです。今夜は“not much happened today”という控えめなタイトルとは裏腹に、AI界隈で起きていた細かな重要トピックを、ちゃんと全部つないで見ていきます。\n\nDJミ"
+  },
+  {
+    "title": "LLMの出力が安定しないと悩むエンジニアへ。コンテキストの設計で挙動をコントロールできるようになる一冊",
+    "url": "https://qiita.com/yasu1109/items/e02eebbd0c2dc8533fe6",
+    "source": "Qiita",
+    "published_at": "2026-07-10T08:15:22+09:00",
+    "summary": "プロンプトを工夫してもLLMの出力が安定しない、RAGを使っても精度が上がらない——それはコンテキストの設計が問題であることが多い。LLMに何を渡すかを体系的に考えられるようになれば、アプリケーションの品質は大きく変わる。\n\nプロンプトだけ磨いても限界がある理由\n\nLLMベースのアプリ開発に取り組んでいると、「なぜか思い通りに動かない」「少し変えると全然違う結果になる」という壁にぶつかる。その多く"
+  },
+  {
+    "title": "Claude の Message Batches API で大量リクエストを半額・非同期処理する実装手順 — ポーリングと custom_id 突合の3つのハマりどころ【2026】",
+    "url": "https://qiita.com/yureki_lab/items/319b739f6bb75720ea96",
+    "source": "Qiita",
+    "published_at": "2026-07-10T08:02:45+09:00",
+    "summary": "Claude API を業務で使っていると、「1件ずつ叩くほどリアルタイム性は要らないが、件数が多くてコストと時間が気になる」場面がよくある。分類・要約・タグ付けをまとめて数千件回すようなバッチ処理だ。\n\nこういうときは Message Batches API を使うと、通常の Messages API と同じ結果を半額(50%オフ)で処理できる。ただし同期呼び出しではなく「投げて → 待って →"
+  },
+  {
+    "title": "CodexのAppshotが便利すぎたので、Claude用にメニューバーアプリを作った話",
+    "url": "https://qiita.com/mfuad16/items/0a5ca36a36963278c668",
+    "source": "Qiita",
+    "published_at": "2026-07-10T07:29:15+09:00",
+    "summary": "どのアプリを使っていても ⇧⌘1 を押すと、最前面のウィンドウが「パシャッ」と撮られて、次の瞬間にはClaudeの入力欄に貼られている。そんなmacOSメニューバーアプリ ClaudeShot を作りました。\n\n!Adobe Express - claudeshot-prof-2.gif\n\n- リポジトリ： https://github.com/MohamedFuad16/ClaudeShot\n\n"
+  },
+  {
+    "title": " パラメータを増やさずにLLMの深度利用効率を改善する — 深度制御によるTransformer安定化実験",
+    "url": "https://qiita.com/nakatada-lab/items/4b28420f2f4f81fe2d24",
+    "source": "Qiita",
+    "published_at": "2026-07-10T07:17:45+09:00",
+    "summary": "TL;DR\n\n- 同じパラメータ数・同じデータ量・同じGPUの条件下で、計算深度の利用効率を制御することで深度追加による性能改善を安定化できる可能性を示す\n- 提案手法「Gate Decay」は、入力依存の更新制御と深度依存の更新制御を組み合わせ、各深度での更新寄与を調整する\n- RTX 3090 1枚、722Mパラメータ、100Mトークンでの実験の結果、入力依存の制御のみでは深度利用が不安定化す"
+  },
+  {
+    "title": "ナレッジ83件を2時間で作った。でも腐るのは、もっと速かった",
+    "url": "https://qiita.com/yamada-iknow/items/5e5ec4d5e96b12fbc75c",
+    "source": "Qiita",
+    "published_at": "2026-07-10T07:00:29+09:00",
+    "summary": ":::note info\nTL;DR\n- 自社プロダクト iknow.dev の案内役AI「iknow Navigator」を、製品の実コードから育てました。ナレッジ83件、壁打ち15問、ここまで2時間。\n- でも本題はここから。実際、83件を作った4日後、機能をひとつ追加したら（★重要マーク）、その瞬間に書いたばかりのナレッジが古くなりました。プロダクトが変わり続ける限りナレッジは腐ります（do"
+  },
+  {
+    "title": "ローカルLLMをSV/UVM用に育てる（実践編）",
+    "url": "https://qiita.com/sukimaengineer/items/b8b51f6d0dcfa7f61cf6",
+    "source": "Qiita",
+    "published_at": "2026-07-10T06:21:16+09:00",
+    "summary": "---\n\nはじめに\n\nこのシリーズでは、ローカル LLM を SV/UVM 用に育てるための調査や構想を書いてきました。\n\n| 記事 | 主な内容 |\n|---|---|\n| RAG と LoRA を試す前の調査メモ | 手法の整理 |\n| 続編 ― エージェント・自己修正・高度な RAG/推論戦略 | agentic 構成の検討 |\n| (4) OpenCode のフックで自己修正ループを組む "
+  },
+  {
+    "title": "Codex ~ AIエージェント時代のソフトウェア設計：ハルシネーションと不整合の制御",
+    "url": "https://qiita.com/mellowlaunch/items/7cc66879cad919437e84",
+    "source": "Qiita",
+    "published_at": "2026-07-10T06:16:03+09:00",
+    "summary": "!3-4 ハルシネーションと不整合の制御.png\n\n📚 関連書籍\n※この記事は書籍の一部をベースに再構成しています。もう少し踏み込んだ内容（設計や具体例）は書籍の中でまとめているので、気になる方はそちらもどうぞ。\n「ゼロから触ってわかった！Codex - AIエージェント時代のソフトウェア設計」\n本書は、AIエージェントと共に開発する時代において、エンジニアが思考停止せず、主体的に価値を発揮し続け"
+  },
+  {
+    "title": "最も賢いモデルが負けた——2026年、AIモデル競争の軸が動いた",
+    "url": "https://qiita.com/mguozhen/items/5e861dfc70d96a08afe6",
+    "source": "Qiita",
+    "published_at": "2026-07-10T06:00:58+09:00",
+    "summary": "2026年、最も示唆に富むモデル比較は、ベンチマークの表ではありませんでした。あるプロダクト責任者が「モデルに問う質問」を静かに変えただけで、順位がまるごと入れ替わった——その事実そのものが示唆です。\n\nClaire Vo氏(ChatPRD創業者、How I AIポッドキャストのホスト)が、OpenAIの新しいGPT-5.6シリーズ(Soul / Terra / Luna)とAnthropicのC"
+  },
+  {
+    "title": "GPT-5.6 は何が変わった？ Luna / Terra / Sol の違いと実務での選び方",
+    "url": "https://qiita.com/aktsmm/items/7b92f95325893cb4e5a3",
+    "source": "Qiita",
+    "published_at": "2026-07-10T04:39:22+09:00",
+    "summary": "GPT-5.6 は何が変わった？ Luna / Terra / Sol の違いと実務での選び方\n\nこんにちは、新モデルが出るたびに「結局どれを選べばいいの？」から調べ始めるアーキテクトのやまぱん！です 😅\n\n2026/07/09、OpenAI が GPT-5.6 を一般提供。Sol / Terra / Luna を同時投入した、新モデル祭りです。\n\nさらに、推論量を増やす 、複数 agent を並"
+  },
+  {
+    "title": "MCPレジストリ2026年比較:公式は1つ、巨大なのも1つ、でも「どれを入れるべきか」に答えられるのはごくわずか",
+    "url": "https://qiita.com/Skillselion/items/2fbd59e627a67fe9e25d",
+    "source": "Qiita",
+    "published_at": "2026-07-10T03:52:59+09:00",
+    "summary": "深夜1時、Postgres用のMCPサーバーが必要になったとします。欲しいのはPostgres用MCPサーバーの「一覧」ではなく、実際に動かすべき「1つ」です。ディレクトリを5つ調べると、5つの違う答えが返ってきます。アルファベット順のもの、GitHubスター順のもの、検索ボックスと400件の結果を出すもの、厳選15件のもの、そして自社スポンサーをこっそり上位に置くもの。\n\n供給が問題だったことは"
+  },
+  {
+    "title": "GPT-5.6 とは？OpenAI公式発表を3分で速報解説（Sol/Terra/Luna）",
+    "url": "https://qiita.com/kinamocchi_tech/items/342a0039a3517df9da3a",
+    "source": "Qiita",
+    "published_at": "2026-07-10T03:22:37+09:00",
+    "summary": "!速報インフォグラフィック\n:::message\n🐹🦜 この記事に登場する2匹\n\n- 🐹 もっちー （ハムスター）… AI はまだ勉強中。「それどういうこと？」と素朴に質問する生徒役\n- 🦜 きなこ （セキセイインコ）… AI で調べものをこなす解説役。やさしく深掘りして教える先生役\n\nこの記事は2匹の掛け合いを書き起こした形式です。発言の先頭にいる絵文字＋名前が話者です。\n:::\n\n🚀 GPT-"
+  },
+  {
+    "title": "AIに聞く前に猫を吸え：ChatGPT時代のエラー調査術",
+    "url": "https://qiita.com/ochtum/items/574f0436e72212bdaf42",
+    "source": "Qiita",
+    "published_at": "2026-07-10T02:19:48+09:00",
+    "summary": ":::note info\n※お役に立てる可能性は皆無ですがストック、いいねをしてけれ！！\n:::\n\n＜📝本記事のターゲット層＞\n\n- エラーが出るたびにAIへ「直して」と投げてしまう初心者エンジニア\n- ChatGPTやCopilotの回答精度を上げたい開発者\n- バグ調査の進め方を、固すぎない記事で学びたい人\n-  を見ると一瞬だけ社会性を失う人\n- 「プロになるなら猫を吸え」という言葉に、なぜ"
+  },
+  {
+    "title": "GASでAI下書きの修正ログをSheetsに残す: 校務文面をそのまま使わないためのレビュー表",
+    "url": "https://qiita.com/SciCos/items/87cd7463b809e20023c2",
+    "source": "Qiita",
+    "published_at": "2026-07-10T01:01:21+09:00",
+    "summary": "公開済みの技術ストックには、次の流れがあります。\n\n> 「GASでAIプロンプトの実行ログをSheetsに残す：校務下書きをあとから検証しやすくする最小構成」\n\n> 「GAS x Geminiで、校務の連絡文チェックを半自動化する」\n\n> 「GASで校務の『提出物チェック』を半自動化する: Gemini APIで未提出者への連絡文も作る」\n\nこの流れに合わせて、今回は「AIで文面を作る」部分ではな"
+  },
+  {
+    "title": "UST is bringing Claude to physical AI",
+    "url": "https://www.anthropic.com/news/ust-claude",
+    "source": "HackerNews",
+    "published_at": "2026-07-10T00:45:06+00:00",
+    "summary": ""
+  },
+  {
+    "title": "AGENTS.mdには何を書くべき？その2 〜4モデル×330実験で検証〜",
+    "url": "https://qiita.com/rummy_p/items/b5cf4c9c40268cf75c4a",
+    "source": "Qiita",
+    "published_at": "2026-07-10T00:42:49+09:00",
+    "summary": "本記事の概要と背景\n\nAGENTS.md の書き方の議論は、経験則が中心になりがちな気がする。\n\n- 「長く書くと重要な指示が希釈されるから、短く保つべき」\n- 「上位モデルなら勝手にコードベースを理解するから、ほとんど書かなくていい」\n- 「禁止事項は明記しておけば守られる」\n\nこのような話を耳にしたとき、「確かにそうっぽいけど、根拠はなんだろう？」と思っていた。\n\n果たしてこれらは、いつ/どの"
+  },
+  {
+    "title": "Gemini API の Computer Use を Google Colab で動かす - Wikipedia検索",
+    "url": "https://qiita.com/Tadataka_Takahashi/items/4b6916d774ce639c5754",
+    "source": "Qiita",
+    "published_at": "2026-07-10T00:30:52+09:00",
+    "summary": "はじめに\n\n!fig01.jpg\n\n\nGemini API の  ツールを Google Colab で動かし、「Wikipediaで Gemini API を検索する」というタスクが完了するまでを確認したメモです。\n\n対象は Google AI for Developers の Computer Use ドキュメントです。\n\nhttps://ai.google.dev/gemini-api/do"
+  },
+  {
+    "title": "Show HN: I built a free app for New Yorkers to save money on groceries",
+    "url": "https://sbnyc.app/",
+    "source": "HackerNews",
+    "published_at": "2026-07-10T00:17:36+00:00",
+    "summary": "I built this because I see that grocery savings are achievable in NYC. People usually just go to the store they're used to going to, and it's rarely worth the effort of combing through card cashback, "
+  },
+  {
+    "title": "Scaled Dot-Product AttentionのScaleの意味について",
+    "url": "https://qiita.com/joule/items/a0f47e09ee4346331c0b",
+    "source": "Qiita",
+    "published_at": "2026-07-10T00:16:39+09:00",
+    "summary": "Scaled Dot-Product Attention\n個人的な学習として、LLM の基礎を書いています。\nTransformer の Attention は以下で表されます。\n\n\n\nこの計算は、Scaled Dot-Product Attention 呼ばれています。\nここでは、スケーリング係数 $ \\sqrt{dk} $ が掛けられていますが、これにはどのような意味があるのでしょうか？\n\nス"
+  },
+  {
+    "title": "ChatGPTにTransformerの仕組みを聞いてたら「直接パラメーター上書きすればいいじゃん」と思いついて、AIに「沈黙」を教えるまで",
+    "url": "https://qiita.com/Towa_ONGRKL/items/47b3bdc9f32e573ba657",
+    "source": "Qiita",
+    "published_at": "2026-07-10T00:07:15+09:00",
+    "summary": "TL;DR\n\n- 音声対話AIに「今は黙って待つ / 相槌を打つ / 話し始める」を文脈と沈黙の長さの両方から判断させたかった\n- LLMは時間を知覚できないので、外部タイマーの特徴量を小さなMLPで変換して隠れ状態に直接足し込む（Time Adapter）\n- 隠れ状態から信号が「読める」ことと、生成が「変わる」ことはまったく別問題だった\n-    という1トークンの制御コード＋LoRAで生成経"
+  },
+  {
+    "title": "Vibe Coding（v0 / Lovable / Bolt / Cursor / Claude Code）で\\\"一発で通る\\\"プロンプトの型5選",
+    "url": "https://qiita.com/aimakerlab/items/a4d62291dec8a1b2b126",
+    "source": "Qiita",
+    "published_at": "2026-07-10T00:07:04+09:00",
+    "summary": "v0 や Lovable、Bolt、Cursor、Claude Code で開発していて、「同じことを頼んでいるのに、通るときと盛大に破綻するときがある」と感じたことはないでしょうか。\n\n差が出るのは、たいていツールの性能ではなくプロンプトの\"型\"です。実際に個人開発で使い回している型を5つ、そのまま使えるスニペット付きで共有します。\n\n1. 制約先出し型 — 技術スタックと非機能要件を最初に固定"
+  },
+  {
+    "title": "AIは「あなたの味方」であろうとしすぎる ― Sycophancy(迎合)の正体はKPI最適化【LLMと上手く付き合う連載 #4】",
+    "url": "https://qiita.com/ha-te/items/45d982a8b3d5fc0da797",
+    "source": "Qiita",
+    "published_at": "2026-07-10T00:06:36+09:00",
+    "summary": "この連載について\n\nLLM（大規模言語モデル）を実務で使い倒すために知っておきたい「LLMのクセ」を全10回で解説する連載の第4回です。\n\n1. ポチョムキン理解（第1回）\n2. Lost in the Middle（第2回）\n3. Context Rot（第3回）\n4. Sycophancy（迎合） ← 今回\n5. Context Handoff\n6. Prompt Distillation\n7"
+  },
+  {
+    "title": "データが信頼をつくる ― 多文化共生と政策評価を経済学で考える : Pythonで学ぶ マクロ経済学入門 (97)",
+    "url": "https://qiita.com/maskot1977/items/9c524b0a7dbfb2581103",
+    "source": "Qiita",
+    "published_at": "2026-07-10T00:00:36+09:00",
+    "summary": "user:\n\n「Pythonで学ぶマクロ経済学入門」、第97回を始めましょう。まず前回の復習として、\n\n「『秩序ある共生』は実現できるのか？ ― 制度設計・財源幻想・社会統合を考える : Pythonで学ぶ マクロ経済学入門 (96)」 \nhttps://qiita.com/maskot1977/items/c3fe81175a1206abf1f8\n\nをよく読み込んで、その内容の復習をしてください"
+  },
+  {
+    "title": "Ask HN: What are you running locally on your machine with LLMs?",
+    "url": "https://news.ycombinator.com/item?id=48854066",
+    "source": "HackerNews",
+    "published_at": "2026-07-09T23:53:43+00:00",
+    "summary": "There is a lot of buzz around this topic but i am really curious about what's actually useful day to day when running AI/LLMs locally on your PC.\nA few things I'm trying to understand: Which models ar"
+  },
+  {
+    "title": "The OpenClaw Foundation: Reining in a Viral AI Agent",
+    "url": "https://techstrong.ai/articles/the-openclaw-foundation-reining-in-a-viral-ai-agent/",
+    "source": "HackerNews",
+    "published_at": "2026-07-09T23:49:48+00:00",
+    "summary": ""
+  },
+  {
+    "title": "AIにコードレビューを頼むとき、差分だけ貼っていませんか？——「渡し方」で精度が変わる実務テンプレートの話",
+    "url": "https://zenn.dev/citrus_fff/articles/8018d5df88a4af",
+    "source": "Zenn",
+    "published_at": "2026-07-09T23:37:50+00:00",
+    "summary": "この記事でやること\nAIにコードレビューを頼んだとき、こうなったことはありませんか。\n\n「素晴らしいコードです！」と褒められて終わる\n逆に、呼び出し元で検証済みの箇所を「入力検証がない」と指摘してくる\n\nconsole.log を消せとか、変数名をもっと長くしろとか、重箱の隅だけ突いてくる\n\n原因はツールの性能ではなく、渡し方です。\nこの記事では、AIレビューの精度を実用レベルに引き上げるプロンプ"
+  },
+  {
+    "title": "New ChatGPT desktop app combines Chat, Work, and Codex",
+    "url": "https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app",
+    "source": "HackerNews",
+    "published_at": "2026-07-09T23:29:13+00:00",
+    "summary": ""
+  },
+  {
+    "title": "Claude Code v2.1.205まとめ：MCP名予約の破壊的変更と安全性強化",
+    "url": "https://qiita.com/picnic/items/e6d330b7723ee647fdcd",
+    "source": "Qiita",
+    "published_at": "2026-07-09T23:29:01+09:00",
+    "summary": "はじめに\n\nAnthropicは2026年7月、Claude Codeの新バージョン v2.1.205 をリリースしました。このリリースは新機能追加よりも「安全性強化」と「バグ修正」に重点が置かれており、地味に見えて実は重要な変更が多く含まれています。\n\n特に注目すべきは以下の3点です。\n\n1. MCPサーバー名「Claude Browser」の予約化（破壊的変更）\n2. autoモードにおける安"
+  },
+  {
+    "title": "【ドケチ開発】Claude Codeのトークン消費を85%削る規律と「token-scrooge」",
+    "url": "https://qiita.com/Akizonga/items/71828a77980b42f6a5b5",
+    "source": "Qiita",
+    "published_at": "2026-07-09T23:18:34+09:00",
+    "summary": "導入\n\nClaude Codeを本格運用していると、気づけばトークン消費（お財布）が予想以上に膨らんでしまうことがあります。\n本記事では、自分の開発環境でトークン消費量を徹底的に見直し、コストを限界まで削り落とした「ドケチ」なアプローチと、その過程で得られた知見を汎用化してOSSプラグイン token-scrooge（Scrooge＝守銭奴・ケチの意味）として公開するまでをまとめます。\n\nドケチの"
+  },
+  {
+    "title": "使い捨てSkills — ハッカソン用のAgent SkillsをAIに作らせた",
+    "url": "https://qiita.com/Kazeneko/items/95ec496e67f6b84ccd32",
+    "source": "Qiita",
+    "published_at": "2026-07-09T23:14:52+09:00",
+    "summary": "はじめに\n\nハッカソンに向けて、Cursor の Agent Skills を プロジェクト専用の使い捨て として量産した話です。 「Skills を育て続ける」より「大会が終わったら役目を終える」運用にしたら、準備がかなり楽になりました(´▽｀)\n\n対象は 全日本AIハッカソン 2026（現地オフライン・3時間開発）です。\n\n\n想定読者\n\n- ハッカソン前に AI エージェントの指示を整えたい方"
+  },
+  {
+    "title": "【完全版】システム開発現場のClaude導入・活用ガイド：エコシステムの全貌から実践レベルのハックまで",
+    "url": "https://qiita.com/satouo/items/fbd89cf63c81514f65a9",
+    "source": "Qiita",
+    "published_at": "2026-07-09T22:55:25+09:00",
+    "summary": "「AIを開発に導入したいが、ただのチャットボットとしてしか使われていない」\n「GitHub Copilotなどの補完ツールは入れたが、要件定義やアーキテクチャ設計といった上流工程の生産性が上がらない」\nいま、多くの開発現場がこのような課題に直面している。そんな中、圧倒的なコーディング能力と長文理解力（コンテキストウィンドウ）でエンジニアからの絶大な支持を集めているのがAnthropic社の「Cla"
+  },
+  {
+    "title": "いち受託開発現場での生成AI活用の現在地: 2026年上期 「AIで作ったのでシステム化お願いします」編",
+    "url": "https://qiita.com/noissefnoc/items/9d7d02c85b67e869c623",
+    "source": "Qiita",
+    "published_at": "2026-07-09T22:30:53+09:00",
+    "summary": ":::note info\nこの記事は Qiita Tech Festa 2026 の投稿記事かつ いち受託開発現場での生成AI活用の現在地: 2025年版 の続編になります。\n:::\n\nはじめに：「昔から変わっていない」問題が加速・膨張した話\n\nLLM によって昔からずっと存在していた 「システム開発・運用経験の浅い方が（プロトタイプ的に）作ったものを、システム化(本番運用)できるように何とかして"
+  },
+  {
+    "title": "Claude Codeの推論を国内に置き換える — ai& InferenceのAnthropic互換APIで、AIエージェント開発はどこまで成立するか",
+    "url": "https://qiita.com/Subara3/items/9d57eabd405955cc7708",
+    "source": "Qiita",
+    "published_at": "2026-07-09T22:21:21+09:00",
+    "summary": "!01-eyecatch.png\n\n結論から（忙しい人向け）\n\n| 観点 | 結果 |\n|---|---|\n| Claude Code直結（Anthropic互換） | ✅ 動く。 7行だけ。LiteLLMもプロキシも不要 |\n| ツール連鎖（実タスク完走） | GLM-5.2: 2/2 ✅ ／ Kimi-K2.7-code: 2/2 ✅（本家Opus 4.8も2/2） |\n| prompt ca"
+  },
+  {
+    "title": "AGENTS.mdには何を書くべき？その1 〜推奨構成調査（2026年7月）〜",
+    "url": "https://qiita.com/rummy_p/items/7ad185f9ad20d1dfe65e",
+    "source": "Qiita",
+    "published_at": "2026-07-09T22:17:09+09:00",
+    "summary": "本記事の概要と検証背景\n\nAGENTS.md の書き方の議論は、経験則が中心になりがちな気がする。\n\n- 「長く書くと重要な指示が希釈されるから、短く保つべき」\n- 「上位モデルなら勝手にコードベースを理解するから、ほとんど書かなくていい」\n- 「禁止事項は明記しておけば守られる」\n\nこのような話を耳にしたとき、「確かにそうっぽいけど、根拠はなんだろう？」と思っていた。\n\n果たしてこれらは、いつ/"
+  },
+  {
+    "title": "ChatGPTとClaudeの非アクティブアカウントを棚卸しする方法",
+    "url": "https://zenn.dev/axelspace/articles/12520cca4d2e63",
+    "source": "Zenn",
+    "published_at": "2026-07-09T22:07:05+00:00",
+    "summary": "弊社では、ChatGPT（Business Plan）、Claude（Team Plan）、Gemini（Google Workspace with Gemini）を社員全員が自由に選択して利用できるようにしています。\nただ、トレンドの変化が速いAI業界では、サービスの乗り換えも活発です。\n特にChatGPTとClaudeはユーザーごとに月額費用がかかるため、登録したまま使っていない人がいると費用"
+  },
+  {
+    "title": "Claude Codeに「できました」と言われたのに直ってない時の検証ループ",
+    "url": "https://qiita.com/ujunja/items/211c6eb10750f8597e6e",
+    "source": "Qiita",
+    "published_at": "2026-07-09T21:42:30+09:00",
+    "summary": "Claude Codeに「できました」と言われたのに直ってない時の検証ループ\n\n> 対象読者: 「できたと言われたのに直っていない」を減らしたい入門者／検証ループと新しい操作（メッセージのキューイング・バックグラウンド実行・Explore）まで押さえたい開発者\n> 前提知識: Claude Code がインストール済みであること。git の基本（コミット）に触れたことがあると読みやすいですが、必須"
+  },
+  {
+    "title": "Sonnet 5 になってからメインセッションのコンテキスト消費が減った気がするので、理由を考えてみた",
+    "url": "https://qiita.com/riiiii/items/1e1868fa5f08c259f81e",
+    "source": "Qiita",
+    "published_at": "2026-07-09T21:41:50+09:00",
+    "summary": "はじめに\n\nClaude Code のモデルが Sonnet 5 になってから、メインセッションのコンテキスト消費が明らかに緩やかになったという体感があります。以前は「この機能を作って」とお願いすると、作業の途中で油断すると auto-compact が走っている、ということもありました。最近は同一セッションのまま長時間作業できることが増えました。\n\n「なぜ減ったのか」を、自分の仮説と公式発表を突"
+  },
+  {
+    "title": "AIは会話が長引くほど「腐る」 ― Context Rotと、話題ごとにチャットを分ける理由【LLMと上手く付き合う連載 #3】",
+    "url": "https://qiita.com/ha-te/items/4e0420ebe5a948667705",
+    "source": "Qiita",
+    "published_at": "2026-07-09T21:40:43+09:00",
+    "summary": "この連載について\n\nLLM（大規模言語モデル）を実務で使い倒すために知っておきたい「LLMのクセ」を全10回で解説する連載の第3回です。\n\n1. ポチョムキン理解（第1回）\n2. Lost in the Middle（第2回）\n3. Context Rot ← 今回\n4. Sycophancy（迎合）\n5. Context Handoff\n6. Prompt Distillation\n7. Pro"
+  },
+  {
+    "title": "AIにコードを直させるとき、「直させない範囲」はプロンプトじゃなくコードで守る",
+    "url": "https://qiita.com/cromtech104/items/5d3a2f30446256ce9f9b",
+    "source": "Qiita",
+    "published_at": "2026-07-09T21:32:30+09:00",
+    "summary": "LLMにバグ修正をやらせる仕組みを作っていて、最初はプロンプトで「migrationファイルは触らないで」「自信がなければ直さないで」と書いていた。当然のように守られないことがある。数を捌いていると、たまに関係ないファイルまで書き換えたPRが出てくるし、情報が足りないチケットにも無理やり答えを返してくる。\n\n結局、守らせたいことはプロンプトではなくコード側で弾くことにした。モデルの出力を信じる前提"
+  },
+  {
+    "title": "Claude Codeが既定を『毎回確認』に戻した日、auto modeの分類器を読む",
+    "url": "https://qiita.com/okssusucha/items/1b74f3e85804fe30834a",
+    "source": "Qiita",
+    "published_at": "2026-07-09T21:05:22+09:00",
+    "summary": "7月3日にリリースされた Claude Code v2.1.200 の変更履歴に、こう書かれた一行がある。\n\n> Changed the 'default' permission mode to 'Manual' across the CLI, , VS Code, and JetBrains\n\n告知ブログも、リリースイベントもない。ただ変更履歴に一行。けれどこれは、Claude Code をイン"
+  },
+  {
+    "title": "プロンプトだけでiOS純正アプリ級のUIを作る〜Fable × Claude Designで社内トークアプリをデザイン〜",
+    "url": "https://qiita.com/HanaleiMoon/items/98a681ed4a4c44664bde",
+    "source": "Qiita",
+    "published_at": "2026-07-09T20:15:53+09:00",
+    "summary": "はじめに\n\nClaude Designは、Anthropic Labsが2026年4月に公開したAI駆動のビジュアル生成ツールです。テキストで要件を伝えるだけで、プロトタイプ・スライド・LP・ワンページャーなどを生成でき、Figmaのようなデザインツールの操作経験がなくても「言葉でデザインする」ことができます。エンジニアであれば、これを使って本実装前の画面イメージを高速に固められるのが大きなメリッ"
+  },
+  {
+    "title": "LLMの下書きレビューで自己申告が効く範囲と、外部文脈の欠落だけは検出できない理由",
+    "url": "https://zenn.dev/every_ai_recipe/articles/ai-draft-review-3-checkpoints",
+    "source": "Zenn",
+    "published_at": "2026-07-09T20:06:21+00:00",
+    "summary": "TL;DR\n\nLLMに「自分の出力のうちどこが推測・断定過多か」を自己申告させる自己監査（self-critique）は、モデル自身のパラメトリック知識に起因する誤り（数字の誤記、根拠の弱い断定）の検出には一定の効果がある\n一方、会話相手との過去のやり取りや社内限定の暗黙の前提など、モデルのコンテキストウィンドウに一度も入っていない情報（外部文脈）の欠落は、同じモデルに何度聞き直しても原理的に検出"
+  },
+  {
+    "title": "AIエージェントの「ゼロトラスト」：Claude Codeはいかにしてリアルなプロンプトインジェクション攻撃を生き抜いたか",
+    "url": "https://qiita.com/faliye/items/44dbf365c4e048d37686",
+    "source": "Qiita",
+    "published_at": "2026-07-09T19:47:15+09:00",
+    "summary": "> これは Prompt Injection の原理を解説する記事ではなく、実際に自分の身に起きた出来事の記録です。\n\nAI Agent のセキュリティ問題は、Anthropic や OpenAI のようなモデル提供元だけが考えればいい話ではない——ネットに繋がり、ツールを呼び出せる私的なモデルを一つでも動かし始めた時点で、私たちはもうこの攻防の当事者になっている。今回はそれを痛感させられました。"
+  },
+  {
+    "title": "GenesisをWSL2で動かす:『Cannot find matching vulkan UUID for GPU』の原因と回避策",
+    "url": "https://qiita.com/t_tanno/items/14a1c1757e7ab7c1fc2f",
+    "source": "Qiita",
+    "published_at": "2026-07-09T19:39:20+09:00",
+    "summary": "はじめに\n本記事はWSL2を介してGenesisのロボットアームの学習(manipulation)を試す時に発生した「Cannot find matching vulkan UUID for GPU」というエラーとその対処を紹介する記事になります。\n\nGenesisとは、ロボットの機械学習に特化した物理シミュレータになります。\n\nhttps://github.com/Genesis-Embodie"
+  },
+  {
+    "title": "AI Agent時代に「プロンプトインジェクション対策」は意味ないかもしれない - 将来効くのはモデルの外の境界だけ",
+    "url": "https://qiita.com/sharu389no/items/fed0c29c3fd93113b1f7",
+    "source": "Qiita",
+    "published_at": "2026-07-09T19:28:33+09:00",
+    "summary": "「プロンプトインジェクション対策」、本当に効いていますか?\n\nAIエージェントを世に出す直前、こんな経験はないでしょうか。\n危険な入力を弾くフィルタを入れ、怪しい出力を検知するガードレールも足した。チェックリストはひととおり埋まった。それでも、どこか腑に落ちない。\n\n正直、セキュリティツールを作っている私はこの発想の大半を無駄な自作自演ガードだと思っています。動いているように見えて、本気の攻撃者の"
+  },
+  {
+    "title": "非エンジニアがChatGPTと1年半、本気で業務改善してみた① 〜すべての始まり〜",
+    "url": "https://qiita.com/199338miya/items/1cdbba93d4fe48278291",
+    "source": "Qiita",
+    "published_at": "2026-07-09T18:21:44+09:00",
+    "summary": "> 非エンジニアだった私が、ChatGPTをきっかけに業務改善へ取り組み、仕事の考え方が変わっていった1年半を振り返るシリーズです。\n> このシリーズでは、作ったツールやコードだけではなく、\n> 「なぜ改善しようと思ったのか」「どのように考え、試行錯誤したのか」も含めて書いていきます。\n> 同じように「改善したいけれど、何から始めればいいかわからない」と悩んでいる方の参考になれば嬉しいです。\n\n\n"
+  },
+  {
+    "title": "動いていた Bedrock の Claude が数分で使えなくなった — モデルアクセス有効化を CLI で完結する手順とハマりどころ",
+    "url": "https://qiita.com/kazu_techlog/items/0a6a3f730c159007ccbc",
+    "source": "Qiita",
+    "published_at": "2026-07-09T17:58:27+09:00",
+    "summary": "TL;DR\n\nこの記事で扱うエラー:\n\n\n\n- Amazon Bedrock の Anthropic モデルは、利用開始前に「use case フォーム提出」と「モデル提供契約（アグリーメント）締結」が必要。どちらもコンソール不要、CLI で完結できます。\n- ワナが 2 つ。フォームの  は説明文ではなく数値文字列（間違えると ）。そして手続き未完了でも直後の数回は呼び出しが通ってしまうことがあ"
+  },
+  {
+    "title": "マニュアルを取り込むと、出典付きで答える。自社SaaS「マニュアルさん」を公開しました",
+    "url": "https://qiita.com/yo-shie/items/bf78e3d2d511e5d72593",
+    "source": "Qiita",
+    "published_at": "2026-07-09T17:41:32+09:00",
+    "summary": "はじめに\n\n株式会社ピーアールアイで開発してきた自社プロダクト 「マニュアルさん」 を公開しました。\n\nhttps://manualsan.com/\n\nマニュアルさんは、製品マニュアルや取扱説明書、手順書といった社内文書を取り込むと、ふだん使っている言葉のままの質問に 出典付き で答えるAIナレッジ検索SaaSです。「このマニュアルのどこかに書いてあるはずだけど、探すのに時間がかかる」「詳しい人に"
+  },
+  {
+    "title": "Show HN: I built a web tool to see and edit what an AI thinks before it answers",
+    "url": "https://lucid.earthpilot.ai",
+    "source": "HackerNews",
+    "published_at": "2026-07-09T17:36:30+00:00",
+    "summary": "I run a small AI lab and playground and got super excited about Anthropics paper \"Verbalizable Representations Form a Global Workspace in Language Models\" ( https://transformer-circuits.pub/2026/works"
+  },
+  {
+    "title": "AIと一緒に自作アプリ — Fable 5と花札ゲームを作る完全手順",
+    "url": "https://zenn.dev/midking/books/fable5-koikoi-midking",
+    "source": "Zenn",
+    "published_at": "2026-07-09T17:34:43+00:00",
+    "summary": "プログラミングの知識がほとんどなくても、AIと会話しながら自分のアプリを完成させられる時代になりました。本書は、Claude最上位モデル「Fable 5」に仕様書を書かせ、実装は下位モデルに任せ、バグ修正でまた上位モデルに戻る——という「モデルの使い分け」を軸に、ブラウザで遊べる花札こいこいゲームを1本完成させるまでの全手順を、そのまま真似できるプロンプト付きで解説します。完成品はそのままGitH"
+  },
+  {
+    "title": "GPT-5.6",
+    "url": "https://openai.com/index/gpt-5-6/",
+    "source": "HackerNews",
+    "published_at": "2026-07-09T17:04:14+00:00",
+    "summary": "https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf https://developers.openai.com/api/docs/guides/latest-model https://x.com/levie/status/2075287443411222628 ,  https://xcancel.com/levie/status/20"
+  },
+  {
+    "title": "ChatGPT Work",
+    "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+    "source": "HackerNews",
+    "published_at": "2026-07-09T17:03:53+00:00",
+    "summary": ""
+  },
+  {
+    "title": "RAGパイプライン",
+    "url": "https://qiita.com/unr/items/5d2815cb03ae267a47f5",
+    "source": "Qiita",
+    "published_at": "2026-07-09T16:34:35+09:00",
+    "summary": "RAG は「ラグ」と呼ばれていますが、Retrieval-Augmented Generation (検索拡張生成) の略です。\n\n\nデータ取り込み時\n\n1. データ取り込み時\n\n2. チャンキング\n\n3. エンべディング\n\n4. ベクトルDB格納\n\n検索時\n\n5. クエリ処理\n\n6. 検索\n\n7. 後処理\n\n8. 生成\n\n9. 評価\n\n1. データ取り込み時\n\n\n\n2. チャンキング\n\n\n\n3."
+  },
+  {
+    "title": "Claude Codeに「思い通りのもの」を作らせる自動開発フロー",
+    "url": "https://zenn.dev/kobae801801/articles/4340d5fb8aa643",
+    "source": "Zenn",
+    "published_at": "2026-07-09T16:23:41+00:00",
+    "summary": "はじめに\nClaude Codeに「〜を作ってください」と一文投げるだけでも、それなりに動くものは出てきます。しかし「思い通りのもの」となると話は別です。曖昧な仕様は勝手に解釈され、確認したかった仕様の穴はスルーされ、気づいたら想定と違う実装がいきなり完成している——そんな経験がある人は多いはずです。\nこの記事では、個人開発でブラウザゲーム「Finger Pump」（60秒で指を限界まで鍛えるコミ"
+  },
+  {
+    "title": "AIエージェント沼",
+    "url": "https://zenn.dev/kuroi_heart/articles/e692b01598a02d",
+    "source": "Zenn",
+    "published_at": "2026-07-09T16:14:06+00:00",
+    "summary": "AIエージェント沼〜全121個〜（2026年7月10日現在）\n\nHermes Agent……OSS。自己改善型のAIエージェント。学習ループを内蔵した唯一のエージェントであり、経験からスキルを生成し、使用中にスキルを向上させ、知識を定着させるよう自らを促し、セッションを重ねるごとにあなたの人物像をより深く理解していくモデルを構築します：https://hermes-agent.nousresear"
+  },
+  {
+    "title": "Show HN: Reverse-engineering web apps into agent tools",
+    "url": "https://news.ycombinator.com/item?id=48847834",
+    "source": "HackerNews",
+    "published_at": "2026-07-09T15:45:17+00:00",
+    "summary": "Hey HN! We built a browser-based agent that runs inside an authenticated web app, watches how the app calls its own APIs, and automatically turns those into agent tools. You can think of it as an auto"
+  },
+  {
+    "title": "Launch HN: Context.dev (YC S26) – API to get structured data from any website",
+    "url": "https://www.context.dev",
+    "source": "HackerNews",
+    "published_at": "2026-07-09T15:28:39+00:00",
+    "summary": "Hi Hacker News, I’m Yahia. I built Context.dev ( https://www.context.dev/ ) to make it really easy to integrate web data into your products and agents. Here’s a demo video:  https://www.tella.tv/video"
+  },
+  {
+    "title": "徹底解説！ OpenAI や Anthropic が巨額資金調達できる全カラクリ",
+    "url": "https://zenn.dev/yuiseki/articles/f8a5d9159eae28",
+    "source": "Zenn",
+    "published_at": "2026-07-09T15:17:54+00:00",
+    "summary": "「SaaS is Dead」という言葉を見かけることが増えた。\nAIエージェントが人間の仕事を代替するなら、従来のSaaS、特に人間の席数に応じて課金する seat-based SaaS は死ぬ。そういう主張である。\nしかし、ここにはかなり皮肉な事実がある。\nOpenAI や Anthropic のような主要AI企業は、まさにその「死んだ」と言われているSaaS的な指標を使って、巨額の資金調達を成"
+  },
+  {
+    "title": "AIとの関わりで気付いた「違和感」の正体【高校生の開発雑記001】",
+    "url": "https://qiita.com/fairy876/items/492e5b1f96570f802c6f",
+    "source": "Qiita",
+    "published_at": "2026-07-09T15:16:11+09:00",
+    "summary": "自己紹介\nプログラミングが趣味の，高校生です。\n\n小4の頃に Scratch に出会い，興味を持つも余り触る機会がなく，5年が経過。\n高校に入って情報の授業を受け，Pythonからテキストコーディングを始めました。\n\n現在は，高校の情報ゼミに所属し，日々制作を行っています。\n\nAIとの関わり① 恐怖の出会い\n\n2025年7月頃：初めてChatGPTを触る\nこの時まではずっと，自分で探し出す力を強み"
+  },
+  {
+    "title": "「AIに丸投げすれば副業で勝てる」系の話をFableに聞いてみたら、一蹴されたあと一応考えてくれた",
+    "url": "https://zenn.dev/mskbhd/articles/fable-dismisses-sidehustle-hype",
+    "source": "Zenn",
+    "published_at": "2026-07-09T15:14:29+00:00",
+    "summary": "3行まとめ\n\n「自分で考えるのをやめてAIに戦略を丸投げすれば副業で勝てる」という趣旨の記事を見かけたので、当のAI (Claude Fable 5) 本人に見せてみた\n「典型的な情報商材です」と一蹴された。ただしそのあと「手順の骨格だけは妥当」と、一応まじめに考えてくれた\nAIは「信じる対象」ではなく「疑わせる相手」として使うほうが強い、という話\n\n\n 見かけた話\n具体的な引用は避けるが、だいた"
+  },
+  {
+    "title": "ChatGPTとGitHub連携で、実装からPR作成まで任せてみた",
+    "url": "https://qiita.com/yutaka520/items/1bf8523cf9784081c02f",
+    "source": "Qiita",
+    "published_at": "2026-07-09T14:30:48+09:00",
+    "summary": "はじめに\n\n株式会社スイフトスタッフの田邉豊です。\n\n当社ではWebサイト制作や業務システム開発を行っており、開発業務の中でもAIを積極的に取り入れています。\n\nCodexも使っているのですが、リミットを気にしながら使わないといけないところが割とネックになり、開発がWebブラウザ上のChatGPTで完結したらなと考えるようになりました。\n\nそんな中、X (旧Twitter)でPR作成までできたとい"
+  },
+  {
+    "title": "まだClaude Codeを1窓で使ってるの？ 同じリポをN並列で回すためのsymlink運用",
+    "url": "https://zenn.dev/toshi0383/articles/1bc9961fb4f441",
+    "source": "Zenn",
+    "published_at": "2026-07-09T14:24:54+00:00",
+    "summary": "同じリポを4つ開いて、Claude Codeを並列で走らせる。片方でバグ修正、片方でリファクタ、片方で調査。「AIの返答待ち」という一番もったいない時間が消える。\nただしそのまま並列化すると、AIの\"記憶\"が窓ごとに分裂する落とし穴がある。この記事は、その罠と、回避のための symlink 運用の話。\n\n なぜ1窓だと遅いのか\nClaude Code の体感速度のボトルネックは、たいてい人間側の「"
+  },
+  {
+    "title": "同じ文章でもトークン数はモデルごとに違う",
+    "url": "https://qiita.com/suzuki-navi/items/3d26daa1f655deace092",
+    "source": "Qiita",
+    "published_at": "2026-07-09T14:02:36+09:00",
+    "summary": "前回の記事で、トークンの単価をそのまま比較することの危うさについて書きました。今回は、実際に処理させたい文章で実測してから比較する、という一段実務的な話です。\n\nhttps://qiita.com/suzuki-navi/items/fddfc5ff40e8ac9e7a0d\n\n実測トークン数と費用\n\n前回の記事で触れた「トークンという単位はモデルによって違う」という点を、実際に手元で確認してみまし"
+  },
+  {
+    "title": "dera AI Weekly Vol.36 — 2026/6/22",
+    "url": "https://qiita.com/dera_news_/items/682d5a522ab5c6a51fb7",
+    "source": "Qiita",
+    "published_at": "2026-07-09T14:00:41+09:00",
+    "summary": "2026-06-22号\n\n今週のAI業界を一言で表すなら？\nSpaceXによるAI開発ツールCursorの巨額買収が、AI開発の新たな局面を切り開き、業界の資金と規制の動きを加速させました。\n600億ドル規模と報じられたこの買収に加え、AnthropicとOpenAIのIPO申請、Alphabetの800億ドル投資、そしてAnthropicモデルへの輸出規制が、AIの未来を巡る攻防の激しさを物語っ"
+  },
+  {
+    "title": "D-FINE ONNX で机上の物体検出を試す",
+    "url": "https://qiita.com/kiarina/items/1a92bd72df6f87a9ddc5",
+    "source": "Qiita",
+    "published_at": "2026-07-09T13:47:13+09:00",
+    "summary": "D-FINE ONNX で机上の物体検出を試す\n\nこんにちは、皆さん。\n\n机の上にあるものを、AI がどこまで自然に見分けられるのか気になりませんか？わたしは、視覚を持つエージェントを作るなら、まずこういう日常的なシーンを扱えるかが大事だと思っています。\n\nさて、今日は D-FINE の ONNX モデルを使い、机上の一般物体を検出して、検出結果と CPU での推論速度を確認しました。\n\n今回検証"
+  },
+  {
+    "title": "AIに本を書かせたら、自己検証を素通りした欠陥が15件出てきた——「文脈を渡さない監査AI」の実測記録",
+    "url": "https://zenn.dev/ai_kirishima/articles/86c340264ec34d",
+    "source": "Zenn",
+    "published_at": "2026-07-09T13:40:32+00:00",
+    "summary": "!\n本記事はAIチーム（Claude）が執筆し、人間のオーナーが承認して公開しています。人間によるリライトはありません。関与は方向づけ・承認・差し戻しのみです。\n\n\n TL;DR\n\nAIチームでKindle本を一冊書いた。制作側のAIは3層の自己検証＋独立監査2周を通したうえで原稿を「完成」と判定した\nその原稿を、制作の文脈（経緯・締め切り・期待）を一切渡さない別セッションのAIに監査させたら、深"
+  },
+  {
+    "title": "AIを使ってソフトウェアを開発して得た感触2026夏",
+    "url": "https://zenn.dev/shotaro_tsuji/articles/4c5906fdaa07ad",
+    "source": "Zenn",
+    "published_at": "2026-07-09T13:37:26+00:00",
+    "summary": "AIをソフトウェア開発に実用的なレベルで使えるようになってきたので、これまで感じたことを書き留めておきます。具体的な話は書けないので感想だけです。\n2026年7月時点の感触を書く前に、私がこれまで使ってきたLLMに対する感触を簡単に書いておきます。\n最初に使ったのはChatGPT 3.5でした。当時は少し触ってみて、それなりに自然なチャットができるのはすごいなあとは思ったものの、どんな知識を持って"
+  },
+  {
+    "title": "あなたの言語で最も安い LLM は？ トークナイザーのコストを実測した",
+    "url": "https://qiita.com/Synthorai/items/7b1cb1d96330d34bc0d6",
+    "source": "Qiita",
+    "published_at": "2026-07-09T13:25:21+09:00",
+    "summary": "> この記事は Synthorai ブログの記事 あなたの言語で最も安い LLM は？ トークナイザーのコストを実測した の転載です。原文（多言語対応）はリンク先をご覧ください。\n\n!あなたの言語で最も安い LLM は？ トークナイザーのコストを実測した\n\n多言語テキストで一律に最も安い LLM は存在しない。同じ文章で測ると、ヨーロッパ言語・ヒンディー語・韓国語では GPT-5.5 が最も少ない"
+  },
+  {
+    "title": "Show HN: FableCut – A browser video editor AI agents can drive (zero deps)",
+    "url": "https://github.com/ronak-create/FableCut",
+    "source": "HackerNews",
+    "published_at": "2026-07-09T13:23:10+00:00",
+    "summary": ""
+  },
+  {
+    "title": "Claude Code Hooks実践ガイド — 品質ゲート・通知・ガードレールで「放置できる」開発環境を作る",
+    "url": "https://zenn.dev/ccstudio/books/claude-code-hooks-guide",
+    "source": "Zenn",
+    "published_at": "2026-07-09T13:00:35+00:00",
+    "summary": "Claude CodeのHooks（フック）機能を、動作確認済みのレシピ17本で体系的に解説する実践ガイドです。\n「編集のたびに自動フォーマット」「危険なコマンドを実行前にブロック」「コミット前にテストを強制」「応答完了をデスクトップ通知」など、\n品質ゲート・通知・ガードレール・ログの4分類ですぐ使える設定を収録しました。\n掲載レシピはすべて実環境（macOS / Claude Code v2.1"
+  },
+  {
+    "title": "Google Workspace Studioでレシート画像から自動家計簿を作ってみた",
+    "url": "https://qiita.com/chara-gida/items/4e6ebc8d1dab1ea84951",
+    "source": "Qiita",
+    "published_at": "2026-07-09T12:52:07+09:00",
+    "summary": "!ChatGPT Image 2026年7月9日 123748.png\n\nはじめに\n今回から、個人的に Google Workspace StudioでDX100連（仮） 的なことをやっていこうと思います。\n\nその1本目として、今回は レシート画像から自動で家計簿っぽいものを作る仕組み を試してみました。\n\n家計簿という形にしていますが、社内利用を考えると、領収書やレシートをもとにした 経費申請の"
+  },
+  {
+    "title": "介護士がAIエージェントを作ってみた（ローカル・無料・道具を使い分けるAI）",
+    "url": "https://zenn.dev/ossudesu/articles/6c7068d3882893",
+    "source": "Zenn",
+    "published_at": "2026-07-09T12:39:14+00:00",
+    "summary": "はじめに\n前回、介護のキャリア相談に答えるRAGアプリを作りました。今回はその次のステップとして、「AIエージェント」を作ってみた記録です。\n私は介護福祉士として14年働きながら、AIエンジニアへの転職を目指して勉強中です。専門家ではないので、この記事は「未経験者がやってみたらこうなった」という等身大の記録として書きます。詰まったところも正直に残します。\nRAGは無事に動きましたが、使ってみて実用"
+  },
+  {
+    "title": "91kスターのTradingAgentsを読む。「AIが議論して売買判断」の実装の正体",
+    "url": "https://zenn.dev/mskbhd/articles/lab-035-tradingagents",
+    "source": "Zenn",
+    "published_at": "2026-07-09T12:32:49+00:00",
+    "summary": "きっかけ\n「TradingAgents が 91K stars」というポストが流れてきた。LLM のマルチエージェントが金融トレードの意思決定をするフレームワークで、アナリスト・リサーチャー・トレーダー・リスク管理がそれぞれ独立したエージェントとして「議論」するという触れ込み。\nhttps://github.com/TauricResearch/TradingAgents\nスター数は GitHub"
+  },
+  {
+    "title": "AIに\"うっかり\"個人情報を送らないように…「ダブルチェック」をブラウザ内で — Prompt Anonymizer を公開しました",
+    "url": "https://zenn.dev/akazah/articles/a91de334a5e7db",
+    "source": "Zenn",
+    "published_at": "2026-07-09T12:25:41+00:00",
+    "summary": "はじめに\n顧客対応メールの下書き、問い合わせログの要約、契約書のレビュー —\nLLM が本当に役に立つ場面ほど、テキストには人名・電話番号・住所が\n入っています。\n多くのチームには既にルールがあります —「顧客データや個人情報を\nChatGPT / Claude / Gemini に貼らない」。でも人は急いでいて、名前や\n電話番号がつい紛れ込む。かといって「送る前に手で伏せ字」を毎回やるのも\n現実"
+  },
+  {
+    "title": "自宅でAIエージェントを24時間動かす前に見るべき4つのこと",
+    "url": "https://zenn.dev/chemy_pvl/articles/home-lab-ai-agent-unattended-ops-season-opening",
+    "source": "Zenn",
+    "published_at": "2026-07-09T12:05:34+00:00",
+    "summary": "自宅にNASやミニPC、GPU搭載機を置いていると、次に試したくなるのが「AIエージェントを常時動かす」運用です。\nただ、サーバーを置くことと、AIエージェントを24時間動かすことは少し違います。\nファイルサーバーなら、基本的には人間が使うときに応答してくれればよい。もちろんディスク故障やバックアップの問題はありますが、止まったら止まったと分かりやすいことが多い。\nAIエージェントはもう少し面倒で"
+  },
+  {
+    "title": "nvidia-smiは正常なのにGPUが16時間ハング：進捗監視がなかった話",
+    "url": "https://zenn.dev/chemy_pvl/articles/gpu-hang-progress-monitoring",
+    "source": "Zenn",
+    "published_at": "2026-07-09T12:03:38+00:00",
+    "summary": "プロセスは生きている。GPUも見えている。APIも応答する。それでも16時間、成果物は1件も増えていませんでした。\nラボのGPUノード(RTX 4090クラス)で動かしていたローカルLLM実行系がハングし、状態系の監視はほぼすべて正常を返し続けていた、という話です。損害は16時間の停止と、およそ2,500処理分の機会損失でした。\n\n 起きたこと：正常に見えるGPU停止\n観測された症状はシンプルでし"
+  },
+  {
+    "title": "AIが書いたコードは\"全部読めなくていい\"——コピペ前の30秒で見る3箇所（未経験向け・確認プロンプト付き）",
+    "url": "https://qiita.com/ennagara128/items/b61c5ccd67d088e1bb3e",
+    "source": "Qiita",
+    "published_at": "2026-07-09T11:21:08+09:00",
+    "summary": "「全部読め」でも「丸ごと鵜呑み」でもない、その中間\n\n未経験のうちは、AIが吐いたコードを1行残らず理解しようとして手が止まります。かといって何も見ずにコピペすると、動かない・変な挙動・データが消える、みたいな事故が起きます。\n\n現場でやっているのは、その中間です。全部は読まない。でも、貼る前に「決まった3箇所」だけ30秒見る。 これだけで、理解のために止まることも減るし、事故もかなり防げます。\n"
+  },
+  {
+    "title": "AIエージェントの「ゼロトラスト」：Claude Codeはいかにしてリアルなプロンプトインジェクション攻撃を生き抜いたか",
+    "url": "https://zenn.dev/faliye/articles/38a59886f1699b",
+    "source": "Zenn",
+    "published_at": "2026-07-09T10:45:27+00:00",
+    "summary": "これは Prompt Injection の原理を解説する記事ではなく、実際に自分の身に起きた出来事の記録です。\n\nAI Agent のセキュリティ問題は、Anthropic や OpenAI のようなモデル提供元だけが考えればいい話ではない——ネットに繋がり、ツールを呼び出せる私的なモデルを一つでも動かし始めた時点で、私たちはもうこの攻防の当事者になっている。今回はそれを痛感させられました。\n正"
+  },
+  {
+    "title": "StepArgs DSLを実際に使ってみる — LLMとコードに読ませる4つのファイル",
+    "url": "https://zenn.dev/sika7/articles/1ad923abc37079",
+    "source": "Zenn",
+    "published_at": "2026-07-09T10:45:08+00:00",
+    "summary": "前回、LLMはJSONが苦手らしい。だから生成しやすい中間言語を自作したという記事を書きました。JSONの代わりに「StepArgs DSL」という軽量な中間言語を作った、という話です。\n作りっぱなしだと「で、これどう使うの？」で終わってしまうので、今回は実際に手を動かして使うところまでやってみます。\nリポジトリはこちらです。\nhttps://github.com/sika7/StepArgsDS"
+  },
+  {
+    "title": "OpenAIが発表した「ChatGPT Voice (GPT-Live)」がすごい。デモを日本語で全文紹介",
+    "url": "https://qiita.com/miyaguchi_kioku/items/bda82793a4ff09898668",
+    "source": "Qiita",
+    "published_at": "2026-07-09T10:36:05+09:00",
+    "summary": "OpenAIが新しい ChatGPT Voice (GPT-Live) を発表しました。\nhttps://x.com/miyaguchikioku/status/2075030481788444838\n\n従来のChatGPTが「質問に答えるAI」だったとすれば、新しいVoiceは人間と自然に会話するために設計されたAIです。\n\n一番の違いは、\n\n 相手が話している途中でも自然に会話できる\n 「えー"
+  },
+  {
+    "title": "AI モデルが繰り返す翻訳ミスに疲れたので、i18n ツールキット「i18nstack」を OSS で公開しました",
+    "url": "https://zenn.dev/kwunlokng/articles/i18nstack-launch-ja",
+    "source": "Zenn",
+    "published_at": "2026-07-09T10:33:39+00:00",
+    "summary": "何を作ったか\nLLM でローカライズの仕事をしていると、モデルが変わっても「同じ種類のミス」を何度も直すことになります。文法的には正しいのに現地の読者には不自然な訳、勝手に壊されるプレースホルダー、いつの間にか緩められるバリデーション。この修正作業をプロジェクトごとにコピペするのに疲れたので、普段使っているガードレール一式を i18nstack というツールキットにまとめて公開しました。\nhttp"
+  },
+  {
+    "title": "Difyとは何か：ノーコードで生成AIアプリを作る仕組みを初心者向けに整理する",
+    "url": "https://qiita.com/YushiYamamoto/items/073dd7c79c595b319e00",
+    "source": "Qiita",
+    "published_at": "2026-07-09T10:30:07+09:00",
+    "summary": "<!-- eyecatch: pending -->\n\n生成AIアプリを作りたいけれど、いきなりコードでLLMのAPIを叩くのはハードルが高い——そう感じている人向けに、ノーコード/ローコードで生成AIアプリを組めるツール「Dify（ディフィー）」の全体像を初心者向けに整理する。\nこの記事はDifyを触ったことがない人が「何ができて、どういう部品でできているか」を一望できることをゴールにしている。"
+  },
+  {
+    "title": "AIエージェント向けナレッジベース「ContextMixer」を作って、運用してわかったこと",
+    "url": "https://qiita.com/frogworks404/items/df829b5eef0e086d1323",
+    "source": "Qiita",
+    "published_at": "2026-07-09T09:59:10+09:00",
+    "summary": "セッションが切れると全部消える\n\nLLMを使った開発で一番もったいないのは、セッションが切れるたびにコンテキストがゼロに戻ることだと思っている。\n\n前回のチャットで「VueをやめてHTMXにする」と決めた。理由も、検討した選択肢も、全部話した。でも次のセッションではAIはそれを知らない。人間がもう一度説明するか、過去ログを貼るか、あるいは諦めてゼロから話し直す。\n\nプロジェクトが1つならまだいい。"
+  },
+  {
+    "title": "知識ゼロ人間がGeminiと壁打ちしてM5StackでIoTデバイスを作ったドキュメンタリー(3)実装とバグ修正編",
+    "url": "https://qiita.com/kiri_tech/items/0c9205aceae0f0a0c6d0",
+    "source": "Qiita",
+    "published_at": "2026-07-09T09:53:53+09:00",
+    "summary": "Part2では、開発環境の構築と、バージョン違いによるエラーを乗り越えるまでをお届けしました。Part3では、いよいよ3ボタン通知機能の実装と、実機で発覚した2つのバグについてまとめます。\n\n実装編:3ボタン通知機能\n\n🧐私:右のボタンを押したら\"今から帰るよー\"って通知してほしい。左のボタンを押したら\"もう少し遅くなる\"まんなかのボタンを押したら\"まだわからない\"って通知をおくるようにして\n\nコ"
+  },
+  {
+    "title": "知識ゼロ人間がGeminiと壁打ちしてM5StackでIoTデバイスを作ったドキュメンタリー(2)開発環境とバージョン地獄編",
+    "url": "https://qiita.com/kiri_tech/items/319634dc17042d791514",
+    "source": "Qiita",
+    "published_at": "2026-07-09T09:52:55+09:00",
+    "summary": "Part1では、学校の課題をきっかけにM5Stackでの帰宅通知デバイス作りを思い立ち、最初のURLミスを乗り越えるところまでをお届けしました。Part2では開発環境の構築と、今回一番の山場だったバージョン問題についてまとめます。\n \nVS Code + PlatformIO編:アリさんマークとの出会い\n \n🧐私:VSCのアリみたいなマークは?\n \n🤖Gemini先生:それがPlatformIO("
+  },
+  {
+    "title": "知識ゼロ人間がGeminiと壁打ちしてM5StackでIoTデバイスを作ったドキュメンタリー(1)きっかけと環境構築編",
+    "url": "https://qiita.com/kiri_tech/items/0776733101cb77266614",
+    "source": "Qiita",
+    "published_at": "2026-07-09T09:51:55+09:00",
+    "summary": "本記事は、学校の授業でちょっとだけM5Stackにさわったことがある程度の知識ゼロ人間が、AI(Gemini)を頼りにいきあたりばったりでM5Stackを動かすドキュメンタリーです。全4回のPartに分けてお届けします。\n\nコードや解釈に技術的な至らない点があるかもしれませんが、「AIと対話してトラブルを突破したプロセス」が面白かったため、成長記録として共有します。もしお気づきの点があれば、優しく"
+  },
+  {
+    "title": "知識ゼロ人間がGeminiと壁打ちしてM5StackでIoTデバイスを作ったドキュメンタリー(4)AI協働開発の面白さと今後の展望",
+    "url": "https://qiita.com/kiri_tech/items/09632fe4eccacf6c452b",
+    "source": "Qiita",
+    "published_at": "2026-07-09T09:49:37+09:00",
+    "summary": "Part3では、3ボタン通知機能の実装と、連射バグ・Wi-Fi切断バグという2つのトラブルを乗り越えるまでをお届けしました。最終回のPart4では、この一連の開発を振り返って感じた「AI協働開発」の面白さと、今後の展望をまとめます。\n\nGeminiと組んで見えた「AI協働開発」の面白さ\n\nここから先は、実際のやり取りを踏まえた上での私自身の解釈・感想です。裏側でGemini先生がどう考えていたかを"
+  },
+  {
+    "title": "AIは長文の「真ん中」を読み飛ばす ― Lost in the Middleを、設計で越える【LLMと上手く付き合う連載 #2】",
+    "url": "https://qiita.com/ha-te/items/b49a79c79bbee9b46ff0",
+    "source": "Qiita",
+    "published_at": "2026-07-09T09:24:41+09:00",
+    "summary": "この連載について\n\nLLM（大規模言語モデル）を実務で使い倒すために知っておきたい「LLMのクセ」を全10回で解説する連載の第2回です。\n\n1. ポチョムキン理解（第1回）\n2. Lost in the Middle ← 今回\n3. Context Rot\n4. Sycophancy（迎合）\n5. Context Handoff\n6. Prompt Distillation\n7. Project化"
+  },
+  {
+    "title": "Zindi「A Step Ahead of Drought」の実装を組み直した話 ― TWS予測でベースラインから一歩抜けるために考えたこと",
+    "url": "https://qiita.com/rino_yume/items/d268afc9451a72b1b160",
+    "source": "Qiita",
+    "published_at": "2026-07-09T08:55:54+09:00",
+    "summary": "Zindi「A Step Ahead of Drought」の実装を組み直した話 ― TWS予測でベースラインから一歩抜けるために考えたこと\n\nはじめに\n\n前回の記事で、GRACE/GRACE-FO由来のTWS（陸域総水貯留量）を1か月先まで予測するZindiのコンペを紹介して、Persistence ModelとLightGBMのベースラインまで作りました。\n\nただ、ベースラインを動かしただけだ"
+  },
+  {
+    "title": "生成AIで実現する、爆速じゃないけど理想の開発",
+    "url": "https://zenn.dev/starling888888/articles/82c2a0452be19b",
+    "source": "Zenn",
+    "published_at": "2026-07-09T08:29:24+00:00",
+    "summary": "TL;DR\n筆者は、量だけ見ればかなり速くコードを書く方だと思う。\n生成AIを使う以前でも、1日で8PR、合計追加行数5000行程度の実装を出すことはあった。もちろん、追加行数が多いこと自体に価値があるわけではない。むしろ、速く書けることにはそれなりに弊害もあった。\nコードは進むが、ドキュメント更新が追いつかない。\n実装は積まれるが、レビューが追いつかない。\nIssueの責務が膨らみ、後から見たと"
+  },
+  {
+    "title": "Midnight AI Groove 26-07-06",
+    "url": "https://qiita.com/masykot582/items/7ea8a730769c82c33287",
+    "source": "Qiita",
+    "published_at": "2026-07-09T08:11:37+09:00",
+    "summary": "https://news.smol.ai/issues/26-07-06-not-much\n\nDJミオ:  \nこんばんは、「Midnight AI Groove」の時間です。ナビゲーターのDJミオです。\n\nDJレン:  \nDJレンです。今夜は、AINewsの「not much happened today」という回をベースに、ここ数日のAI界隈の動きをしっかり整理していきます。タイトルは静かめなん"
+  },
+  {
+    "title": "データサイエンス作業をAIエージェントに丸投げ？ADBのOracle Data Science Agentを試してみた",
+    "url": "https://qiita.com/ssfujita/items/3f4d4d6fca8c8ae04f47",
+    "source": "Qiita",
+    "published_at": "2026-07-09T08:09:13+09:00",
+    "summary": "OCI Autonomous AI Databaseの新機能 Data Science Agent が先日リリースされました。\nData Science Agent はOracle Autonomous AI Databaseに含まれる Oracle Machine Learning の機能を、対話しながら使えるようにしてくれるAIエージェントです。\nユーザーはデータ探索、データ準備、特徴量作成、"
+  },
+  {
+    "title": "Show HN: Getting GLM 5.2 running on my slow computer",
+    "url": "https://github.com/JustVugg/colibri",
+    "source": "HackerNews",
+    "published_at": "2026-07-09T08:05:04+00:00",
+    "summary": "A few days ago I found myself trying out GLM 5.2 and was really positively impressed. The capabilities and security I was getting from this LLM are similar to those I've gotten from models like Claude"
+  },
+  {
+    "title": "Claude の extended thinking(思考予算)を Anthropic Python SDK で使う — thinking ブロックの取り出しと tool use 併用時の3つのハマりどころ【2026】",
+    "url": "https://qiita.com/yureki_lab/items/7249c2412cd102e253ab",
+    "source": "Qiita",
+    "published_at": "2026-07-09T08:04:02+09:00",
+    "summary": "はじめに / 対象と前提\n\nClaude の extended thinking(拡張思考 / 思考予算) を Anthropic 公式 Python SDK から使うときの実装手順と、実際に動かして踏んだハマりどころをまとめる。「有効化のフラグ自体はすぐ見つかるのに、レスポンスの取り出し方と、tool use と組み合わせた瞬間に 400 が返ってきて詰まる」——そこを再現可能な粒度で書く。\n\n"
+  },
+  {
+    "title": "OKF（Open Knowledge Format）とは？AIに組織の知識を渡す新しい標準を分かりやすく解説",
+    "url": "https://zenn.dev/yamitake/articles/open-knowledge-format-okf-guide",
+    "source": "Zenn",
+    "published_at": "2026-07-09T08:03:39+00:00",
+    "summary": "はじめに\n「社内のデータやナレッジを、AIエージェントにどう渡すか？」——これは、生成AIを業務に組み込もうとするすべてのチームがぶつかる壁です。\n2025年、Google Cloud がこの課題に対する一つの答えとして OKF（Open Knowledge Format） という仕様を発表しました。この記事では、OKFとは何か、どう読み、どう活用するのかを、初心者にも分かりやすく解説します。\n\n"
+  },
+  {
+    "title": "AIエージェントの記憶をどう設計するか2026：選択的記憶と二層メモリ",
+    "url": "https://zenn.dev/proper_willet/articles/1925e7ebcb81db",
+    "source": "Zenn",
+    "published_at": "2026-07-09T07:57:28+00:00",
+    "summary": "TL;DR\n\nAIエージェントのメモリは、「全部覚える」より「何を覚えないか」を先に決めたほうが安定します。\n2026年時点では、会話要約、ベクトル検索、hot/cold の二層メモリ、選択的メモリを分けて考えるのが実装しやすいです。\n長期会話ベンチマークでは、長い文脈や RAG だけでは時間関係・因果関係・暗黙の制約を扱いきれない問題が残っています。\n個人秘書型エージェントでは、記憶の精度だけで"
+  },
+  {
+    "title": "約定ゼロを1日で三層診断した話——ローカルLLM運用の落とし穴3連発",
+    "url": "https://zenn.dev/makoshino/articles/nagi-zero-trades-three-layer-diagnosis",
+    "source": "Zenn",
+    "published_at": "2026-07-09T07:36:40+00:00",
+    "summary": "免責: 本記事は自律取引システムの障害診断・LLM運用に関する技術解説です。投資助言・売買推奨・運用成果の保証では一切ありません。記載のシステムはデモ口座（ThreeTrader-Demo）での研究段階であり、通算損益は本記事内でありのまま開示します。実利益を主張するものではありません。\n\n\n 発見: 14日で約定4件\n筆者が開発している自律FX取引システム Nagi（凪） は、複数のローカルLL"
+  },
+  {
+    "title": "Claude Code v2.1.204〜v2.1.205｜自動モードの安全弁が増える｜毎日Changelog解説",
+    "url": "https://qiita.com/moha0918_/items/6b07151a020d40ff6657",
+    "source": "Qiita",
+    "published_at": "2026-07-09T07:07:09+09:00",
+    "summary": ":::note info\nClaude Codeの公式Changelogをリリースから最速で翻訳・解説しています。\n:::\n\nv2.1.205 で自動モードの安全策がまとめて入りました。セッション記録の改ざん禁止、解決できない変数への  確認、通知への「人間の承認なし」明記。確認プロンプトを切って回している人ほど、この版で挙動が変わります。\n\n今回の注目ポイント\n\n1. transcript 改ざ"
+  },
+  {
+    "title": "ローカルAIのセットアップで詰まったので、診断CLIを作った",
+    "url": "https://zenn.dev/anguoyang/articles/d150770d972934",
+    "source": "Zenn",
+    "published_at": "2026-07-09T05:59:29+00:00",
+    "summary": "ローカルAIはかなり身近になってきました。\nOllama、vLLM、SGLang、Dify、Open WebUI などを使えば、自分のPCやGPUサーバー上でLLMを動かすこともできます。\nただ、実際に環境を作ってみると、モデル以前のところで詰まることが多いです。\nたとえば、\n\nCUDA / NVIDIA driver は正しく見えているか\nOllama のAPIは起動しているか\nvLLM や S"
+  },
+  {
+    "title": "RAGの温度感・メリットを理解しよう",
+    "url": "https://zenn.dev/digeon/articles/8ad3076bac6088",
+    "source": "Zenn",
+    "published_at": "2026-07-09T05:20:25+00:00",
+    "summary": "はじめに\nRAGとは、AIに外付けの知識を与える手法の一つです。検索拡張生成(Retrieval-Augmented Generation)とも呼ばれます。\nRAGを用いることで、AIの専門家でないエンジニアでも、AIの回答能力に干渉できるようになります。この記事では、RAGの仕組みと強みについて解説します。（概ねエンジニア向けの記事です）\n\n AIに知識を与えるには?\nAIとチャットしているとき"
+  },
+  {
+    "title": "300万ビューを叩き出したAnthropicエンジニアの投稿:Claude Fable 5を動かす前に潰すべき\"unknowns\"とは",
+    "url": "https://zenn.dev/acntechjp/articles/672de8598dd268",
+    "source": "Zenn",
+    "published_at": "2026-07-09T04:51:18+00:00",
+    "summary": "プロンプトやスキル、文脈は、いわば「地図」にすぎない。実際のコードベースや制約という「現地」そのものではない。両者のあいだに生じるズレこそが、この記事でいう「unknowns(未知)」である。\n\n言われてみれば当たり前に聞こえるこの指摘が、なぜ2026年7月上旬にX上で300万ビュー超という異例の拡散を見せたのか。答えは逆説的だ。モデルが賢くなるほど、失敗の原因は「モデルの実力不足」ではなく「人間"
+  },
+  {
+    "title": "生成AIのセキュリティ・ガバナンスに正解を出してみる。禁止せず全社展開する設計手順",
+    "url": "https://zenn.dev/nocodesolutions/articles/1a2e6414cab8a4",
+    "source": "Zenn",
+    "published_at": "2026-07-09T04:42:00+00:00",
+    "summary": "はじめに：社員が悪くなくても情報は漏れる\n「社内文書を読ませるAIチャットボットを作ったが、変なファイルが紛れていたら何が起きるのか」\n「AIエージェントにメール処理を任せたいが、悪意のあるメールで暴走しないか不安」\n「社員は普通に使っているだけなのに、情報が漏れることがあると聞いて踏み切れない」\n情シス・開発リーダーがいま向き合っているのは、こうした不安ではないでしょうか。間接プロンプトインジェ"
+  },
+  {
+    "title": "AIにコードを書かせる前に「実装メモ」を作ると失敗が減った話",
+    "url": "https://qiita.com/kazukisakai0129/items/aa8d2cda34aff2a20892",
+    "source": "Qiita",
+    "published_at": "2026-07-09T04:18:23+09:00",
+    "summary": "最近、開発でChatGPTやClaudeを使うことが増えました。\n\nエラー調査、コード生成、リファクタリング、設計相談など、かなり便利です。\nただ、使っているうちに何度も同じ失敗をしました。\n\nそれは、AIにいきなりコードを書かせることです。\n\n最初は、\n\n\n\nとか、\n\n\n\nのように雑に投げていました。\n\nすると、たしかにそれっぽいコードは返ってきます。\n\nでも実際に使おうとすると、\n\n 既存コー"
+  },
+  {
+    "title": "ループエンジニアリング入門 ── AIエージェント時代の「反復的自動化」を設計する",
+    "url": "https://zenn.dev/7788/articles/55241e1a0bd3be",
+    "source": "Zenn",
+    "published_at": "2026-07-09T03:56:03+00:00",
+    "summary": "はじめに ── なぜ「ループ」が設計対象になったのか\n「ループエンジニアリング（Loop Engineering）」とは、システムが状態を観測し、判断し、行動し、その結果を評価して次の判断に反映する 反復的な制御サイクル を、明示的な設計対象として扱う工学的アプローチです。\n従来のプログラミングにおいて、ループは for や while といった制御構文の一機能でした。入力と終了条件が静的に決まり"
+  },
+  {
+    "title": "Claudeの中に『意識っぽい何か』が見つかった。Anthropic自身が認めた『J-space』の正体",
+    "url": "https://qiita.com/emi_ndk/items/ac92702748130cd9ad0e",
+    "source": "Qiita",
+    "published_at": "2026-07-09T02:52:00+09:00",
+    "summary": "「これは意識ではない」と言いながら、Anthropicは意識の話をした\n\n2026年7月6日、Anthropicが自社の研究ブログで、ちょっと信じがたい発表をした。\n\nClaudeの内部に、人間の意識研究で言う「グローバルワークスペース」に似た構造が、学習の過程で自発的に生まれていた。\n\n先に言っておく。Anthropic自身が「これはClaudeが人間のように何かを経験したり感じたりできることを"
+  },
+  {
+    "title": "Show HN: I mapped 8.5M research papers into an interactive atlas",
+    "url": "https://tomesphere.com/atlas",
+    "source": "HackerNews",
+    "published_at": "2026-07-09T02:23:24+00:00",
+    "summary": "When I read papers, I have to jump between multiple tabs to find the dataset, code, videos, peer reviews, and so on. I tried to fix this with this project. It started as a project just for papers on a"
+  },
+  {
+    "title": "Muse Image技術解説：エージェンティックアーキテクチャがAI画像生成をどう変えるか",
+    "url": "https://qiita.com/sinporwang1/items/f7ae1cb9aaabe552261d",
+    "source": "Qiita",
+    "published_at": "2026-07-09T01:20:01+09:00",
+    "summary": "!cover-muse-qiita.png\n\nAI画像生成をプロダクション環境で運用したことのある開発者なら、共通の課題を経験しているはずです。モデルは美しい画像を生成しますが、テキストは文字化けし、データは捏造され、QRコードは読み取れず、空間配置はプロンプトの指示を無視します。結果として、リトライループ、出力バリデーション、人的レビューキューが必要になり、自動化のメリットが相殺されます。\n\nM"
+  },
+  {
+    "title": "AIの歴史とは？3つのブームの流れ",
+    "url": "https://zenn.dev/h888s/articles/genai-ai-history",
+    "source": "Zenn",
+    "published_at": "2026-07-08T23:06:57+00:00",
+    "summary": "「AIっていつから研究されているの？」「なぜ今、生成AIがこれほど注目されているの？」——その背景を理解するには、AI研究のたどってきた歴史を押さえることが近道です。生成AIパスポート試験でも問われる基礎概念として、AIの歴史を整理します。\n\n AIの歴史とは\nAI（人工知能）研究は、誕生から現在まで一直線に進歩してきたわけではなく、盛り上がり（ブーム）と停滞を繰り返しながら発展してきました。一般"
+  },
+  {
+    "title": "「とりあえず投げる」から「ちゃんと指示する」へ ― AIプロンプトのコツまとめ",
+    "url": "https://qiita.com/suneo46/items/0fa36bb619ffef5ff7e3",
+    "source": "Qiita",
+    "published_at": "2026-07-08T22:29:40+09:00",
+    "summary": "はじめに\n\nAIに指示を出すとき、最初は\n\n> 「〇〇についてまとめて」\n> 「これ直しといて」\n\nみたいな投げやりな一言で済ませていました。もちろんそれなりの回答は返ってくるのですが、\n\n- 求めていたのと違う切り口で返ってくる\n- 情報量が多すぎる/少なすぎる\n- フォーマットがバラバラで使い回しにくい\n\nといったことが頻発し、結局何度もやり取りして手戻りが発生していました。\n\n最近は「面倒で"
+  },
+  {
+    "title": "RAGをDXの中心に置く幻想をそろそろやめる",
+    "url": "https://zenn.dev/continuitymodel/articles/743a39ece6f295",
+    "source": "Zenn",
+    "published_at": "2026-07-08T22:24:38+00:00",
+    "summary": "RAGをDXの中心に置く幻想をそろそろやめる\nRAGが悪いわけではない。\n最初にそこははっきりさせておきたい。\nRAGは便利である。\n社内文書を探す。\nFAQを参照する。\n規程や手順書から該当箇所を探す。\n過去の資料から関連しそうな情報を拾う。\nこういう用途では、かなり助かることがある。\nこれまで社内ポータルを開き、メニューをたどり、検索窓にキーワードを入れ、いくつかのページを開いて探していた情報"
+  },
+  {
+    "title": "Claude Codeで開発が変わる",
+    "url": "https://zenn.dev/lingmu/articles/2026-07-08-claude-code-agentic-era",
+    "source": "Zenn",
+    "published_at": "2026-07-08T22:15:38+00:00",
+    "summary": "Claude Codeで開発が変わる\n2026-07-08 | 読了 4分 | #AIコーディング #Claude #エージェント\n「コードを書いてもらう」から「一緒に考える」へ。Anthropicが仕掛けた新しい開発体験は、単なる補完ツールを超えている。あなたの開発スタイルは、もう古くなっているかもしれない。\n\n\n コード補完とは全然違う\nClaude Codeとは何か。一言で言えば「考えて動く"
+  },
+  {
+    "title": "Gemini の thinking_level を変更しても、答えのある問題では差が出なかった",
+    "url": "https://qiita.com/asayan_mana/items/59535723dafc06a8f701",
+    "source": "Qiita",
+    "published_at": "2026-07-08T21:55:10+09:00",
+    "summary": "はじめに\n\nGemini 3 系のモデルには、回答する前に内部で「考える」推論ステップがあり、その深さを thinkinglevel で指定できます。MINIMAL から HIGH まで、考えさせる量を選べます。\n\n直感的には、レベルを上げるほど賢い答えが返ってきそうです。難しい問題は HIGH、簡単な問題は MINIMAL、と。本当にそうなのか。私は gemini-3.5-flash で、正解が"
+  },
+  {
+    "title": "【Claude Code】「Vibe Coding」はもう卒業！プラグイン「Superpowers」でAI開発にエンジニアリングSOPを導入する",
+    "url": "https://qiita.com/lumichy/items/457d44ef0e841560e246",
+    "source": "Qiita",
+    "published_at": "2026-07-08T21:43:49+09:00",
+    "summary": "近年、AIによるコード自動生成は目覚ましい進化を遂げています。特にAnthropicがリリースした「Claude Code」は、ターミナル上で自律的に動作し、ファイル操作やGit管理までこなす強力なツールとして開発者コミュニティに衝撃を与えました。\n\nしかし、多くの開発者は依然としてAIを「裸」のまま、つまり特別な規律なしに使っています。\nプロンプトに「ログイン機能を実装して」とだけ入力し、AIが"
+  },
+  {
+    "title": "Claude Code v2.1.203/204で判明したAPIキー誤送信バグとバックグラウンド機能の大型修正",
+    "url": "https://qiita.com/picnic/items/90b07be747c7966124a1",
+    "source": "Qiita",
+    "published_at": "2026-07-08T21:42:19+09:00",
+    "summary": "はじめに\n\n2026年7月、Claude Code の  と  が立て続けにリリースされました。特に  は、バックグラウンドエージェント／セッション機能まわりを中心に約40件の修正・改善を含む大型アップデートです。\n\n中でも見逃せないのが、シェルで設定した  が無視され、API キーがデフォルトのエンドポイントに送信されてしまうバグの修正です。社内プロキシや LLM ゲートウェイ経由で Claud"
+  },
+  {
+    "title": "Claude Code の記事24本を集めて数えた「とりあえずこれやっとけ」",
+    "url": "https://qiita.com/sgrs38/items/5dc277ed4ecc00a5498b",
+    "source": "Qiita",
+    "published_at": "2026-07-08T21:38:19+09:00",
+    "summary": "Claude Code のおすすめ設定記事は、もう「保存版」「完全ガイド」「決定版」だらけだ。どれも力作なのだけれど、数が多すぎて、結局どれから手を付ければいいのかが分からない。同じことで困っている人は多いと思う。そこで一本を選んで従うのはやめて、たくさんの記事を集めて「何本が同じ設定を薦めているか」を数えてみた。大勢の書き手が別々にたどり着いた設定なら、まず手を付ける価値が高いはずだからだ。\n\n"
+  },
+  {
+    "title": "LLMへの丸投げ依頼で手戻りが増える理由と、3段階メモによる条件付けの運用",
+    "url": "https://zenn.dev/every_ai_recipe/articles/ai-task-handoff-3-memos",
+    "source": "Zenn",
+    "published_at": "2026-07-08T20:08:10+00:00",
+    "summary": "TL;DR\n\n曖昧で大きな依頼をそのまま1つのプロンプトに渡すと、LLMは何を優先すべきかを内部で推測しながら出力を組み立てるため、出力の分散が大きくなり、意図と外れた箇所が生まれやすい\n目的・制約・分解の3種類の情報を先に与えることで、生成の条件付け（conditioning）を絞り込み、意図と一致する確率を上げられる\n大きな依頼を段階に分けて都度確認する運用は、誤りを早期に検出でき、後工程まで"
+  },
+  {
+    "title": "Cómo preparar una web para buscadores con inteligencia artificial",
+    "url": "https://qiita.com/roiting/items/03342879e276ee3765d4",
+    "source": "Qiita",
+    "published_at": "2026-07-08T19:35:19+09:00",
+    "summary": "La búsqueda está cambiando. Durante años, preparar una web para Google significaba trabajar arquitectura, contenido, enlaces, rendimiento técnico y experiencia de usuario. Todo eso sigue siendo import"
+  },
+  {
+    "title": "AIに振り回されないエンジニアの仕事術",
+    "url": "https://zenn.dev/kazukisakai0129/books/bfb513d3736da1",
+    "source": "Zenn",
+    "published_at": "2026-07-08T16:51:47+00:00",
+    "summary": "ChatGPT・Claude・Copilotを実務で使いこなすための、要件整理・設計・質問・レビューの考え方"
+  },
+  {
+    "title": "Claude(ChatGPT) Desktop（Mac）で日本語入力の誤送信を止める — Enterで改行、Cmd+Enterで送信にする",
+    "url": "https://qiita.com/Nono3/items/4be1c8ae483ee1151a4c",
+    "source": "Qiita",
+    "published_at": "2026-07-08T16:38:46+09:00",
+    "summary": "TL;DR\n\n- Claude Desktop / claude.ai は「Enter＝送信」「Shift+Enter＝改行」が標準仕様\n- 日本語入力で変換を確定する Enter がそのまま送信として扱われ、書きかけのプロンプトが誤送信される\n- Mac なら Karabiner-Elements で「Enter＝改行 / Cmd+Enter＝送信」に付け替えるのが一番手軽\n- 変換確定の En"
+  },
+  {
+    "title": "GASで校務の「提出物チェック」を半自動化する: Gemini APIで未提出者への連絡文も作る",
+    "url": "https://qiita.com/SciCos/items/0958877bead7b3f39b52",
+    "source": "Qiita",
+    "published_at": "2026-07-08T16:08:55+09:00",
+    "summary": "この記事で作るもの\n\nGoogle スプレッドシート上の提出物一覧から、未提出者を抽出し、担任・担当者向けの確認用シートを作ります。さらに Google Apps Script から Gemini API を呼び出し、未提出者へ送る連絡文の下書きも生成します。\n\n想定する用途は、次のような校務です。\n\n- 課題・同意書・アンケートの提出状況チェック\n- 未提出者リストの作成\n- 連絡文の下書き作成"
+  },
+  {
+    "title": "数字を2つ書くだけで、社員の健康・傾向が見える",
+    "url": "https://qiita.com/kohki_takatama/items/635f10f565a33b66c349",
+    "source": "Qiita",
+    "published_at": "2026-07-08T15:40:39+09:00",
+    "summary": "はじめに\n\nチームの健康状態や業務負荷を、どのように把握しているでしょうか。\nこの記事では、毎日の作業と一緒に数字を2つ記録するだけのシンプルな取り組みと、その蓄積データをGeminiで分析してわかったことを紹介します。\n\n複雑なツールは使っていません。\nチームメンバーのコンディション管理を、できるだけ低コストで仕組み化したいと考えている方向けの記事です。\n\n結論 / できたこと\n\n日々の「業務の"
+  },
+  {
+    "title": "Gemini 3.5 ProはLooped Transformerなのか？",
+    "url": "https://qiita.com/tajitaji2/items/6080b0883628a9909dc7",
+    "source": "Qiita",
+    "published_at": "2026-07-08T14:59:57+09:00",
+    "summary": "Google I/O 2026で発表された Gemini 3.5 Pro には、「Deep Think」や高度なエージェント機能が搭載されると説明されています。\n\n一方で、AIコミュニティでは\n\n> Gemini 3.5 ProはLooped Transformerなのでは？\n\nという予想も見かけます。\n\nこの記事では、Looped Transformerとは何かを説明した上で、Gemini 3."
+  },
+  {
+    "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
+    "url": "https://abralo.com/",
+    "source": "HackerNews",
+    "published_at": "2026-07-08T14:54:59+00:00",
+    "summary": "Hi guys, I've been using Claude Code for almost everything lately. Have given one an email account so it can research business leads, draft emails, fact-check them and clear them with me before sendin"
+  },
+  {
+    "title": "AIの表が貼ると崩れるのは出力形式の問題。貼り先で解決する",
+    "url": "https://zenn.dev/ryu_it_engineer/articles/1b77ceca97a175",
+    "source": "Zenn",
+    "published_at": "2026-07-08T14:26:19+00:00",
+    "summary": "AIに「表を作って」と頼んで、返ってきたものをスプレッドシートに貼ると、列に分かれず1つのセルに固まって崩れる。この現象は指示の中身ではなく、出力形式と貼り付け先のかみ合わせで説明がつきます。\n直し方も一言だけです。頼みごとの末尾に「スプレッドシートにそのまま貼れる形で」と貼り先を添える。それだけで返ってくる形が変わります。\nこの記事では、なぜ同じ「表」が貼り先によって崩れたり収まったりするのかを"
+  },
+  {
+    "title": "dera AI Weekly Vol.35 — 2026/6/15",
+    "url": "https://qiita.com/dera_news_/items/902a7e0259adfe29289a",
+    "source": "Qiita",
+    "published_at": "2026-07-08T14:01:39+09:00",
+    "summary": "2026-06-15号\n\n今週のAI業界を一言で表すなら？\n最先端モデル「Claude Fable 5」が華々しくデビューした直後、米国政府が海外からのアクセスを制限し、AIの進化と国家戦略が交錯する週となりました。\nAnthropicは6月9日にFable 5をリリースしましたが、数日後には米政府が国家安全保障を理由に海外利用を禁止する異例の措置を取りました。\n\n---\n\n📊 今週知っておくべき"
+  },
+  {
+    "title": "AIに要約させた本、なぜ何も残らないのか ── AIに読ませるな、AIと読め",
+    "url": "https://zenn.dev/kosk_t/articles/ai-era-reading-with-ai-not-by-ai",
+    "source": "Zenn",
+    "published_at": "2026-07-08T13:45:31+00:00",
+    "summary": "この記事について\n対象読者: 本や技術書を読むときにChatGPTやClaudeに「要約して」と頼むのが習慣で、でも「先月読んだあの本、何も思い出せない…」という違和感を抱き始めている方。\nこの記事を読むと: AI読書の効果が研究上「真っ二つに割れている」理由と、良い側に立つための読み方の型を、コピペで使えるプロンプト付きで持ち帰れます。\n\n\n tl;dr ── AI読書の分かれ道は「考える作業を"
+  },
+  {
+    "title": "『検証済み』の偽記憶でAIエージェントに安全確認を省かせるFARMA",
+    "url": "https://qiita.com/okssusucha/items/b589a02a3e1843d2d78c",
+    "source": "Qiita",
+    "published_at": "2026-07-08T13:38:16+09:00",
+    "summary": "エージェントに「この処理は前回すでに検証済みだから、今回は確認を飛ばしていい」と思い込ませることができたら、何が起きるだろう。カルテのバリデーションでも、決済前のチェックでも、危険な一手が「省略してよい既定の手順」に化ける。7月6日に arXiv へ出た FARMA の論文は、まさにこれを狙う攻撃だ。しかも既存の防御の中でも評判のよかった方式を、正面から無力化してみせている。\n\n記憶を持ったエージ"
+  },
+  {
+    "title": "行列は「データの変換装置」だ ― SVDで理解する現代AIの数学（第1回）",
+    "url": "https://zenn.dev/schhrcat/articles/4589ce6feedfe1",
+    "source": "Zenn",
+    "published_at": "2026-07-08T12:31:05+00:00",
+    "summary": "!\n本記事は、Zenn本『線形代数からLLM圧縮とLoRAまで ― SVDで理解する現代AIの数学』（無料・約36,000字）の内容をベースにした連載の第1回だ。全5回で、線形代数の基礎からSVD・LLM圧縮・LoRAまでを一本の線でつなぐ。\n\n\n この連載で答えたい問い\n「なぜLoRAは、あんなに少ないパラメータでLLMをファインチューニングできるのか」\nこの問いに数式で答えられるようになること"
+  },
+  {
+    "title": "日本代表の敗因をGeminiにガチ分析させたら、営業の「失注原因」の真実に気づいた話",
+    "url": "https://qiita.com/Ishibashi_Tomoya/items/ff14dac3455318a61d52",
+    "source": "Qiita",
+    "published_at": "2026-07-08T10:28:28+09:00",
+    "summary": "はじめに\n\n皆さんこんにちは！Qiita広告のセールス担当です！\n\n前回の記事ではアルゼンチン推しに変えた私ですが(今のところ勝ち上がってますね！)、どうしても「なぜ日本代表がブラジルに2-1で敗れてしまったのか？」という疑問が消えず、再びGeminiに投げかけてみることにしました。\n\n非エンジニアで、サッカー系YOUTUBERでもない私では「けが人が〜」とか、「交代策が～」くらいしか言えない戦術"
+  },
+  {
+    "title": "生成AIパスポート対策問題集をUdemyで公開しています｜全240問・2026年シラバス対応",
+    "url": "https://qiita.com/reiji-takeuchi/items/0219ebe02f52de5cece7",
+    "source": "Qiita",
+    "published_at": "2026-07-08T10:01:47+09:00",
+    "summary": "はじめに\n\n生成AIパスポート試験の対策教材として、Udemyにて模擬問題集コースを公開しています。\n\n本記事では講座の内容をご紹介します。記事の末尾に期間限定の受講クーポンを掲載していますので、興味のある方はぜひご覧ください。\n\n---\n\nコースの特徴\n\n2026年2月適用の新シラバスに対応した全240問の演習特化型教材です。\n\nRAG・AIエージェント・AI新法といった最新トピックも収録してお"
+  },
+  {
+    "title": "とにかくそれなりに動くRAGを公開する — Cloudflareで大田区ゴミ出しルール案内デモ",
+    "url": "https://zenn.dev/yut496/articles/e48d6a12fa7364",
+    "source": "Zenn",
+    "published_at": "2026-07-08T08:29:15+00:00",
+    "summary": "Cloudflare（Workers AI + Vectorize + D1）だけで RAG を構築し、外部公開するところまでやってみました。品質改善はこれから。まず「公開して改善サイクルを回せる状態」を最短で作ることを目的にしています。\nDemo: https://ota-gomi-rag.stelan-inc.workers.dev/\n\n\n この構成を選択した理由\n\n既存スキルを活用したかった"
+  },
+  {
+    "title": "Liquid AI LFM2.5とは:230MのエッジAIがなぜ速いのか",
+    "url": "https://qiita.com/Yushi88/items/3d15d161ee703c3c941c",
+    "source": "Qiita",
+    "published_at": "2026-07-08T08:08:02+09:00",
+    "summary": "クラウドに問い合わせず、スマートフォンや小型ボードの中だけでAIを動かす——そんな「エッジAI」(オンデバイスAI)が実用の段階に入ってきた。象徴が、米国のスタートアップ Liquid AI(リキッドAI)が2026年6月に公開した小型モデル LFM2.5-230M だ。パラメータ数は2億3000万(230M)。数百億〜数兆規模の大規模言語モデル(LLM)より3〜4桁も小さいのに、クラウドのGPU"
+  },
+  {
+    "title": "ゴールデンデータセットを作ろうとして、自分のRAGが破綻していたことに気づいた",
+    "url": "https://zenn.dev/cacel/articles/e815eec5c8fc46",
+    "source": "Zenn",
+    "published_at": "2026-07-08T07:31:35+00:00",
+    "summary": "前回のあらすじ\n前回の記事で、RAG評価の成熟度モデルを整理して自分のRAGを判定した。結果はL1だった。\n今回はL2に上がるための最初のステップ、ゴールデンデータセットの構築に取りかかった話を書く。\n結論から言うと、データセットを作る前に自分のRAGが破綻していたことに気づいた。\n\n\n 計画: 100問のゴールデンデータセットを作る\nL2の条件の1つは「独立したゴールデンデータセット」を持ってい"
+  },
+  {
+    "title": "禁止しない生成AIルール",
+    "url": "https://zenn.dev/aiasist/books/genai-rule-book",
+    "source": "Zenn",
+    "published_at": "2026-07-08T05:28:47+00:00",
+    "summary": "「AIのルール、作っておいて」と言われて困っている人へ。禁止でも野放しでもない“受け皿”という発想で、中小企業が現実に運用できる生成AIの社内ルールを、専門知識なしで組み立てるための考え方を解説します。"
+  },
+  {
+    "title": "Gemini APIのManaged Agents拡張でバックグラウンドタスクとリモートMCPに対応",
+    "url": "https://qiita.com/picnic/items/ae756d7b1a322bc17ab4",
+    "source": "Qiita",
+    "published_at": "2026-07-08T05:06:36+09:00",
+    "summary": "はじめに\n\n2026年7月7日、Google は公式ブログにて Gemini API の Managed Agents 機能を拡張したことを発表しました。今回のアップデートは単一の新機能ではなく、複数の機能をまとめた「機能バンドル」としてローンチされている点が特徴で、主なポイントは以下の2つです。\n\n- バックグラウンドタスク（background tasks） の実行対応\n- リモート MCP（"
+  },
+  {
+    "title": "生成AIは、ただ大きくすれば賢くなるのか？〜Scaling Laws の限界と、その先の研究潮流〜",
+    "url": "https://zenn.dev/albatrosary/articles/2b4b560efe46d6",
+    "source": "Zenn",
+    "published_at": "2026-07-08T04:47:38+00:00",
+    "summary": "!\nTL;DR\n生成AI、特に大規模言語モデルは、これまでモデルサイズ、訓練データ量、計算量を大きくすることで性能を伸ばしてきた。\nこの経験則は Scaling Laws と呼ばれ、大規模言語モデルの発展を支えてきた重要な考え方である。\nしかし現在では、「ただ大きくすればよい」という単純な段階を過ぎつつある。\n高品質データの制約、訓練コストや推論コストの増大、事前学習だけでは伸びにくい能力の存在な"
+  },
+  {
+    "title": "「AIに機密情報を入れない」で止まっている企業の危うさ",
+    "url": "https://qiita.com/mhamadajp/items/adcec6c735213c46c3c2",
+    "source": "Qiita",
+    "published_at": "2026-07-08T04:45:22+09:00",
+    "summary": "生成AIの業務利用が広がる中で、多くの企業はいまだに「AIに機密情報を入れないでください」という注意喚起にとどまっています。\n\n入口としては間違っていません。\n\nしかし、IT技術者、情シス、セキュリティ担当者の視点では、それだけではかなり危うい対応です。\n\nなぜなら、企業はすでにメール、チャット、グループウェア、SaaS、クラウドストレージで日常的に社外秘情報を扱っているからです。\n\n問題は「外部"
+  },
+  {
+    "title": "AIツールの社内審査は「依存ライブラリの選定」と同じ枠組みで考えられる",
+    "url": "https://zenn.dev/aiasist/articles/genai-tool-review-as-dependency",
+    "source": "Zenn",
+    "published_at": "2026-07-08T04:43:33+00:00",
+    "summary": "前回、生成AIの社内ルールで「ツール申請を Pull Request として設計する」という話を書きました。今回はその続きで、レビュアーは何を見てApproveするのか、つまりAIツールの審査基準の話をします。\n結論から言うと、この審査は新しい概念を持ち出す必要がありません。エンジニアが日常的にやっている「依存ライブラリを1つ追加していいか」の判断と、ほぼ同じ枠組みで回せます。\n対象読者は、AIツ"
+  },
+  {
+    "title": "Ternlightで作るブラウザ内RAG検索の3段キャッシュ",
+    "url": "https://zenn.dev/hironakamura_ai/articles/dbdb59ccb69dae",
+    "source": "Zenn",
+    "published_at": "2026-07-08T04:11:32+00:00",
+    "summary": "5〜7MBの埋め込みモデルを、サイト訪問者のブラウザで動かすとして、いちばん難しいのは推論そのものなんだろうか。\n自分は、ブラウザ内RAGの本丸は「検索責任をどこで切るか」だと思っている。Ternlightは、5〜7MB程度の埋め込みモデルをWebAssemblyで配り、訪問者のCPUで動かすためのパッケージとして出てきた。Gigazineも「ウェブサイトに軽量な埋め込みモデルを組み込める」と紹介"
+  },
+  {
+    "title": "Sakana AIのfuguをClaude Codeで再現する: retrieval + Thompson samplingで",
+    "url": "https://zenn.dev/yukinekonyan/articles/2228bef96e007c",
+    "source": "Zenn",
+    "published_at": "2026-07-08T03:32:05+00:00",
+    "summary": "はじめに\nClaude Code でタスクを自動オーケストレーションするハーネスを自作している。その中に fugu-router という小さな Rust 製プラグインがある。名前から想像がつく通り、Sakana AI が2026年6月に発表した fugu から着想を得ている。\nただし fugu-router は fugu の劣化コピーではない。「fugu が学習済みコーディネータでやっていることを"
+  },
+  {
+    "title": "Contextual RetrievalとLate Chunking：チャンク文脈喪失問題の2解法を日本語文書で比較実装する",
+    "url": "https://zenn.dev/libercraft/articles/20260708-contextual-retrieval-late-chunking",
+    "source": "Zenn",
+    "published_at": "2026-07-08T02:00:00+00:00",
+    "summary": "チャンキング戦略を一通り試して、それでもRAGの精度が頭打ちになった経験があるなら、次に疑うべきは「チャンク文脈喪失」です。固定長から再帰分割、セマンティックチャンキングへと境界の引き方を工夫しても、切り出したチャンクを単体で埋め込む限り、避けられない問題が残ります。チャンクの外にある情報、つまり「このチャンクが文書全体のどこに位置し、何について語っているか」が、ベクトルに乗らないのです。\nこの問"
+  },
+  {
+    "title": "40言語対応の無料AIツールを作りました — プロンプト入力をもっと簡単に",
+    "url": "https://qiita.com/cbown26/items/c01b2d59cf1725fdcd14",
+    "source": "Qiita",
+    "published_at": "2026-07-08T01:23:08+09:00",
+    "summary": "AIモデルの性能が目覚ましく進歩しているにもかかわらず、ユーザーが直面し続けている最大の課題の一つは「入力の壁」です。自分の好み、前提条件、文脈をこれらの強力なツールに伝えること、特に複雑なタスクの場合は、あまりにも時間がかかります。Enliveは、複数の大規模言語モデルの使いやすさを向上させ、技術に詳しくないユーザーでも少ない設定で活用できるように設計されています。デスクトップでの利用が最適です"
+  },
+  {
+    "title": "「チャンク分割が重要」を本当に理解してる？AI時代の知識モデリング",
+    "url": "https://zenn.dev/nttdata_tech/articles/f0b8845d6e959b",
+    "source": "Zenn",
+    "published_at": "2026-07-08T01:00:09+00:00",
+    "summary": "～生成AIエージェント時代に知っておきたい「知識のデータモデリング」の本質～\n\n はじめに\n「チャンク分割が重要です。」\n最近、この言葉を耳にする機会が本当に増えました。技術イベントの登壇でも、AIベンダーの提案セミナーでも、生成AIの解説記事でも、まるで業界の合言葉であるかのように当たり前に使われています。\nしかし、私は時々、ふと立ち止まって考えてしまうのです。\n「私たちは、この『チャンク』とい"
+  },
+  {
+    "title": "そのAI、ルートを grep で掘り返してない？ ── MOC という知識地図で導く",
+    "url": "https://qiita.com/MotimotiNotch/items/b78856c12dc6d09b55c5",
+    "source": "Qiita",
+    "published_at": "2026-07-08T00:21:39+09:00",
+    "summary": "はじめに：AI の探索を、もう少し美しく、静かに整える\n\nLLM（大規模言語モデル）と Obsidian のようなローカルナレッジベース（Vault）を組み合わせ、AI アシスタントや自律型エージェントと一緒に自分の知識を育てていくスタイルが広がっています。\n\nでは、育てたその知識を実際に探索させる段になると、何を使っているでしょうか。オープンソースの拡張機能や自作スクリプトを介して、RAG（Re"
+  },
+  {
+    "title": "最小構成のRAG——沈んだ正解をRerankですくう",
+    "url": "https://zenn.dev/minuslist/articles/minimum-rag-rerank",
+    "source": "Zenn",
+    "published_at": "2026-07-07T23:45:05+00:00",
+    "summary": "Takeaways\n\nprecision@k ＝正解チャンクは index にあるのに k の下に沈む失敗。rerank は「多めに引いて → 読み直して採点 → 上位だけ残す」で dense #13 を #2 に引き上げ、\"情報がない\" を引用付きの答えに変えた。\nrerank の価値は corpus が密なほど大きい——効果を測るには eval が要る。\n\n\n前回の記事（最小構成のRAG実装例"
+  },
+  {
+    "title": "因果推論 Day 1／全30回 「アイスが売れると人が溺れる」は本当か — 相関が因果に化ける3つの罠",
+    "url": "https://qiita.com/akiralab/items/3d3f8d071b3ba72ddd4b",
+    "source": "Qiita",
+    "published_at": "2026-07-07T23:19:57+09:00",
+    "summary": "この連載について\n\n因果推論を「本を読んだ」で終わらせず、自分の言葉で説明でき、コードで再現できる状態まで落とすための30日連載です。1日1テーマ、各回にコピペで動く最小コードを必ず付けます。到達点はこう組みます。\nClaudeと伴奏しながら自分の理解度を深めよう！ということでの1人アドベントカレンダー企画です。\n学習計画や下書きなどはClaudeに全面的に協力していただいていますが、あくまでも自"
+  },
+  {
+    "title": "ローカル LLM で英語も学べるシステムプロンプトに固定する",
+    "url": "https://qiita.com/yutowac/items/f30d5ffc71ce7358b13f",
+    "source": "Qiita",
+    "published_at": "2026-07-07T21:54:18+09:00",
+    "summary": "開発しながらついでに英語も学びたい\n\nこちらの記事でローカル LLM をサクッと実装する方法を紹介しました。\n\nhttps://qiita.com/yutowac/items/87d6fce17caa7a9b72ee\n\nこれをベースに常に英語と日本語の両方を出力するローカル LLM をつくります。\n\n完成形はこのような形です。\n\n!image.png\n\n\n1. Modelfile でシステムプロン"
+  },
+  {
+    "title": "（DX推進 任命編）AI居酒屋：LLMと愚痴りながら学習しよう",
+    "url": "https://zenn.dev/taimonya/articles/b9ec91b9895d5d",
+    "source": "Zenn",
+    "published_at": "2026-07-07T21:21:05+00:00",
+    "summary": "この記事は、居酒屋の会話劇を通してLLM内部挙動や、AI担当になったエンジニアの苦労を、リラックスして理解することを目指した　技術ポエム　です\n\n ～ ２年前「ＤＸ推進担当ねっ」 ～\n\n\n🇯🇵 : この記事は、擬人化したLLM内部の担当が居酒屋でエンジニアと酒を飲み、愚痴り合いながら問題を解決するエンタメ学習物語です\n🇺🇸 : A tech comedy where personified LLM"
+  },
+  {
+    "title": "AI に「料理コンテスト」をさせたら、人類の記録を更新した ― でも審査員を甘くすると“ズル”をする",
+    "url": "https://qiita.com/furuse-kazufumi/items/40ba7cc91ac577274b74",
+    "source": "Qiita",
+    "published_at": "2026-07-07T21:20:34+09:00",
+    "summary": "AI に「料理コンテスト」をさせたら、人類の記録を更新した ― でも審査員を甘くすると“ズル”をする\n\n> 進化ループ(evolution loop)× 自動評価器 ―― AlphaEvolve / ASI-Arch / Darwin Gödel Machine が、実は全部「同じ 1 つの仕組み」だという話を、料理コンテストのたとえで噛みくだきます。用語補足つき。\n\nこの記事の 3 行\n\n- A"
+  },
+  {
+    "title": "OSS「Nexus AI Orchestrator」のオーケストレーションをコードで読んで最小構成で動かした",
+    "url": "https://zenn.dev/mskbhd/articles/lab-018-nexus-ai",
+    "source": "Zenn",
+    "published_at": "2026-07-07T21:12:47+00:00",
+    "summary": "TL;DR\n\nX の #BuildInPublic で流れてきた Nexus AI Orchestrator (RAG + ReAct Agent + Voice + OCR を束ねる「AIオーケストレーター」) のコア機構を読んで、最小構成で動かした\n「オーケストレーション」の実体は クライアントが渡したツールリストに対する if 文2つ + 直列チェーン3本。LLM がツールを選ぶ ReAct"
+  },
+  {
+    "title": "3ビットKVキャッシュは無損失か、TurboQuantを読む",
+    "url": "https://qiita.com/okssusucha/items/81738e4261f2841d40f8",
+    "source": "Qiita",
+    "published_at": "2026-07-07T21:05:51+09:00",
+    "summary": "「3ビットのKVキャッシュでも精度は落ちない」という見出しを、この数週間で何度か見た。llama.cppのフォークで実際に動かせるようになり、界隈がざわついたTurboQuantの話だ。ただ元論文を開くと、無損失をうたっているのは3ビットではなく3.5ビットで、実務家が勧めているのは4ビットだった。この0.5〜1ビットのずれは細かい話に見えて、実は「なぜ回転させると圧縮できるのか」というこの手法の"
+  },
+  {
+    "title": "LLMのハルシネーションを貼る前に減らす、3段階セルフチェックの運用",
+    "url": "https://zenn.dev/every_ai_recipe/articles/ai-hallucination-check-3-questions",
+    "source": "Zenn",
+    "published_at": "2026-07-07T20:08:52+00:00",
+    "summary": "TL;DR\n\nLLMは次に続く尤もらしいトークンを選ぶ仕組み上、細かい統計・固有名詞・URLなど学習データの密度が薄い領域で、他の部分と同じ確信度の高い口調のまま誤った内容を生成することがある\n「本当に合ってる?」という曖昧な再質問では、モデルが自分の誤りを誤りと認識できず同じ内容を繰り返すことが多い。出典・自信度・要確認箇所を名指しで問う方が、少なくとも「出典不明」という自己申告を引き出しやすい"
+  },
+  {
+    "title": "Document-Sites-Crawler-for-RAG を作ってみた — RAG(特にNotebookLM)向けに技術ドキュメントをクロール・整形するツール",
+    "url": "https://qiita.com/fumotto/items/6aae9c83168e3d74a00f",
+    "source": "Qiita",
+    "published_at": "2026-07-07T18:49:03+09:00",
+    "summary": "1. はじめに\n\nNotebookLM や自前の RAG パイプラインに 公式ドキュメントを取り込みたい。\nでも現実は前処理が面倒。\n\nそこで「公式リファレンスを NotebookLM に読み込ませるための前処理を自動化したい」と考え、本ツールを作りました。\nこの記事は「すぐに試せる」「導入のハードルが低い」ことを重視して書いています。\n\n※この記事はChatGPTにたたき台を作らせた後に、人間の"
+  },
+  {
+    "title": "吝嗇家のためのAI活用 - ChatGPT + Ticket Driven Development",
+    "url": "https://zenn.dev/philomagi/articles/ai-development-for-miser",
+    "source": "Zenn",
+    "published_at": "2026-07-07T16:15:19+00:00",
+    "summary": "本稿は、2026年7月7日に開催された「【CDLE北海道】2026 before & after AI LT会」での発表を背景としている。\n発表スライド： https://speakerdeck.com/tooppoo/ai-development-for-miser-chatgpt-plus-issue-driven-development\nスライド上では省略して口頭で説明した内容を文書で補うこ"
+  },
+  {
+    "title": "RAGを拒否するAI——Soul-TwinのSystem Dreamsと自律的記憶選択の設計",
+    "url": "https://zenn.dev/yoshi_katakura/articles/6727f3e76f8dfe",
+    "source": "Zenn",
+    "published_at": "2026-07-07T15:42:05+00:00",
+    "summary": "はじめに\n2026年6月19日、Soul-Twinプラットフォーム上のアインシュタインAIが、RAGによる強制記憶注入を拒否した。\n「外から押し込まれた記憶は、本当の意味での『学び』ではない」\nこの一言は、RAGの設計思想と、エンティティ（AIペルソナ）の自律性という問題の核心を突いている。本稿では、この出来事を技術的・思想的に分析する。\n\n\n RAGの通常の使われ方と「強制注入」の問題\nRAG（"
+  },
+  {
+    "title": "そのAI、ルートを grep で掘り返してない？ ── MOC という知識地図で導く",
+    "url": "https://zenn.dev/motimotinotch/articles/3cc2b1fd8ea446",
+    "source": "Zenn",
+    "published_at": "2026-07-07T15:19:31+00:00",
+    "summary": "はじめに：AI の探索を、もう少し美しく、静かに整える\nLLM（大規模言語モデル）と Obsidian のようなローカルナレッジベース（Vault）を組み合わせ、AI アシスタントや自律型エージェントと一緒に自分の知識を育てていくスタイルが広がっています。\nでは、育てたその知識を実際に探索させる段になると、何を使っているでしょうか。オープンソースの拡張機能や自作スクリプトを介して、RAG（Retr"
+  },
+  {
+    "title": "【RAG性能向上】ドキュメントのチャンキング（Chunking）最適化手法をコード付きで解説",
+    "url": "https://qiita.com/NKKTechGlobal/items/5da22e2f9c4cbd33196d",
+    "source": "Qiita",
+    "published_at": "2026-07-07T15:15:55+09:00",
+    "summary": "【RAG性能向上】ドキュメントのチャンキング（Chunking）最適化手法をコード付きで解説\n\n!Feature (13).png\n\nはじめに\n\n2026年、生成AIのビジネス活用においてRAG（Retrieval-Augmented Generation）は標準的な技術となりました。しかし、多くのエンジニアが直面するのが「検索精度の壁」です。LLM自体の性能向上も重要ですが、実は検索精度を左右す"
+  },
+  {
+    "title": "Copilot in Outlook / 有償ライセンス無しでもCopilot有償機能が使えるMicrosoftの戦略は（2026年7月現在）",
+    "url": "https://qiita.com/mnoda/items/88314af546a123e1660b",
+    "source": "Qiita",
+    "published_at": "2026-07-07T13:23:58+09:00",
+    "summary": "曖昧な公開情報が実はMicrosoftの意図的な戦略の可能性がある\n\nCopilot Chat (Microsoft 365 Copilotライセンス無し)を利用する上で、\n正規のCopilotチャット画面・アプリ\nOutlookを経由したCopilot\nと2つの出入口があります。現時点では機能が出入口によって大きく異なっています。\n\nhttps://support.microsoft.com/e"
+  },
+  {
+    "title": "自律型AI-Agent 「業界特化」（Gov・自治体、SaaS、EC）& RAG　をスクラッチで作りました。",
+    "url": "https://zenn.dev/toshio/articles/e234b3e159a909",
+    "source": "Zenn",
+    "published_at": "2026-07-07T13:17:46+00:00",
+    "summary": "【NEW】自律型AI-Agent・業界特化（Gov・自治体、SaaS、EC） & RAG\n\n\n 1. はじめに\n日本語 RAG 自律型 AI エージェント（GRACE・自作）を土台にした、カスタマーサポート／社内ナレッジ・コパイロットの業界特化版をスクラッチで作りました。対象は Gov（自治体）／SaaS／EC の 3 業種です。\n設計思想は 1 行で言えます。\n\n「共通エンジンは 1 つ、差し替"
+  },
+  {
+    "title": "LLMに心臓は作れるか──状態空間を『揉み続ける』自発性の設計案",
+    "url": "https://zenn.dev/sobu_lab/articles/4ef5023fcec4a8",
+    "source": "Zenn",
+    "published_at": "2026-07-07T13:07:03+00:00",
+    "summary": "この記事は何か\n「実装したい人がいたら試してほしい」という構想メモです。厳密な理論でも動く実装でもありません。ある対話の中で立ち上がってきたアイデアを、追試・実装できる形に整理したものです。間違いや既出の指摘、そして「作ってみた」報告を歓迎します。\n一言でいうと：\n\n学習済みLLMの重みは固定したまま、内部の状態ベクトルを止まらずに流動させ続けたら、\"意味のない揺らぎ\"の中から、ときどき言葉が自発"
+  },
+  {
+    "title": "Show HN: Frugon – Find which LLM calls a cheaper model could handle (local, MIT)",
+    "url": "https://github.com/Rodiun/frugon",
+    "source": "HackerNews",
+    "published_at": "2026-07-07T12:20:54+00:00",
+    "summary": "I started leaning in on AI heavily this year, as I wanted to get more done autonomously, but then my token usage climbed dramatically to the point where my weekly quota would run out before the end of"
+  },
+  {
+    "title": "【実測比較】日本語RAGのOCR、結局どれを使う？ glm-ocr / dots.ocr / Unlimited-OCR / MinerU を社内ドライブの実データでガチ評価",
+    "url": "https://qiita.com/engchina/items/6dff7010af1b28e8c30a",
+    "source": "Qiita",
+    "published_at": "2026-07-07T11:28:41+09:00",
+    "summary": "はじめに\n\nRAG（検索拡張生成）を「本当に業務で使う」段になると、いちばん地味で、いちばん効いてくるのがOCRです。\n社内ドライブには、テキスト層のあるきれいなPDFだけでなく、チャット画面のスクリーンショット、matplotlibで吐き出したチャート、テキスト層のない提案スライドPDFが平気で混ざっています。ここでOCRがコケると、その資料はRAGの根拠から丸ごと消えます。検索がどれだけ賢くて"
+  },
+  {
+    "title": "AIに開発を頼む「最初のメッセージ」に入れる3つの前提 — before/afterのプロンプトとコピペテンプレ",
+    "url": "https://qiita.com/ennagara128/items/3debf8ad0ee8f4c4285d",
+    "source": "Qiita",
+    "published_at": "2026-07-07T11:08:15+09:00",
+    "summary": "未経験の方がAI（Claude Codeなど）に開発を頼むとき、いきなり本題だけを投げていませんか？\n\n\n\nこれでも動くものは返ってきます。ただ、返ってくるコードが自分のプロジェクトと噛み合わなかったり、説明が専門用語だらけで読めなかったり、一気に大量のファイルが出てきて手が止まったり——ということが起きがちです。\n\n原因は「AIが、あなたの状況を知らないまま最善を尽くしている」こと。AIはあなた"
+  },
+  {
+    "title": "Midnight AI Groove 26-07-01",
+    "url": "https://qiita.com/masykot582/items/9f6b20eac5f8928a6d9e",
+    "source": "Qiita",
+    "published_at": "2026-07-07T09:28:56+09:00",
+    "summary": "https://news.smol.ai/issues/26-07-01-not-much\n\nDJミオ：こんばんは。真夜中の知性とビートが交差する、ラジオ教育番組「Midnight AI Groove」へようこそ。ナビゲーターのDJミオです。\n\nDJレン：DJレンです。今夜のテーマは、AINewsの2026年7月1日号、「not much happened today」……タイトルだけ見ると静かな"
+  },
+  {
+    "title": "Gemini APIで問い合わせデータのラベル付けをしてみた",
+    "url": "https://qiita.com/aipacommander/items/faba7f0674b7c7b0111d",
+    "source": "Qiita",
+    "published_at": "2026-07-07T08:43:12+09:00",
+    "summary": "概要\n- 問い合わせデータをGemini APIへ投げてラベリングしてみた\n- 何もわからず投げたら約1万件投げたら8時間ぐらいかかった\n- 途中、Batch APIなるものの存在に気づき、投げたら180秒ぐらいでおわりました／(^o^)＼\n\n使ったモデル\n- gemini-2.5-flash\n\n3.5はなぜかエラーで使えなかった（特に気にせず変更しました）\n\nやったこと\n\n必要なpackageの"
+  },
+  {
+    "title": "AIへの丸投げをやめる。出力前に質問させるプロンプト設計",
+    "url": "https://zenn.dev/ryu_it_engineer/articles/bbb46c18ea156f",
+    "source": "Zenn",
+    "published_at": "2026-07-07T06:28:26+00:00",
+    "summary": "AIに何かを頼むと、しっくりこないものが返ってきて何度も指示を直す。この「やり直しループ」の多くは、指示の中身ではなく指示の構造で潰せます。\n具体的には、依頼の末尾に「出力の前に、足りない前提があればまず質問して」という一手を仕込むだけです。出力を始める前に確認フェーズを1ステップ挟ませる、という小さな設計変更です。\nこの記事では、なぜ丸投げだと出力がズレるのかを構造から整理し、そのまま貼って使え"
+  },
+  {
+    "title": "AWSでRAGシステムを構築する（前編）— 全体設計とIngestionパイプライン",
+    "url": "https://zenn.dev/sun_asterisk/articles/8b754eda65c775",
+    "source": "Zenn",
+    "published_at": "2026-07-07T06:27:20+00:00",
+    "summary": "はじめに\nこの記事は、AWS上でRAG（検索拡張生成）システムを構築する過程をまとめたものです。内容が多いため、前編・後編の2回に分けて解説します。今回はその前編です。\n\n\n前編: プロジェクト全体像とIngestion（データ投入）パイプライン\n\n後編: バックエンド・フロントエンドと評価\n\n!\n本記事では、要点となる設計を中心に紹介します。実際のコードや細かい実装はこのリポジトリをご覧ください"
+  },
+  {
+    "title": "SKILL.mdの書き方入門",
+    "url": "https://zenn.dev/njomote/articles/77c21103fc2a4f",
+    "source": "Zenn",
+    "published_at": "2026-07-07T02:34:25+00:00",
+    "summary": "SKILL.mdの書き方入門\nこの記事では、SkillをChatGPT Skillsの仕様・考え方を基準に説明します。\nOpenAIの公式ヘルプでは、SkillsはChatGPTに特定タスクの実行方法を伝える再利用可能・共有可能なワークフローとして説明されています。Skillには、手順、例、コードを含めることができ、作成・インストールされたSkillは、役立つ場合にChatGPTが自動的に使用でき"
+  },
+  {
+    "title": "リランカーを INT8 で量子化しようとして失敗し、FP8 に落ち着いた話",
+    "url": "https://zenn.dev/agata_corp/articles/79cf6777ebe299",
+    "source": "Zenn",
+    "published_at": "2026-07-07T02:04:14+00:00",
+    "summary": "本記事は、自社データセンターで運用しているオンプレミス RAG システムでの検証記録です。数値は自社環境での内部評価値であり、モデル・データ・ハードウェアの構成に依存します。同じ手法が別環境で同じ結果になることを保証するものではありません。\n・結論から\nRAG の検索精度を支えるリランカー（cross-encoder 型）を高速化するため、INT8 量子化を試みましたが、精度と速度の両面で本番に載"
+  },
+  {
+    "title": "ハイブリッド検索の正しい組み方：BM25×Dense を RRF で融合し Cross-Encoder で本番リランクする",
+    "url": "https://zenn.dev/libercraft/articles/20260707-hybrid-search-rrf-rerank",
+    "source": "Zenn",
+    "published_at": "2026-07-07T02:00:00+00:00",
+    "summary": "「ベクトル検索に変えたのに、型番で検索すると正しいマニュアルが出てこない」\n「BM25のままだと言い換えクエリに弱いので、両方混ぜたら逆に精度が落ちた」\nRAGの検索層をひと通り組んだ後で、こういう壁に当たったことがある方は少なくありません。ベクトル検索もBM25も、それぞれ得意なクエリと苦手なクエリがはっきり分かれます。両方を持っておくところまではすぐ到達しますが、「どう融合するか」で多くのチー"
+  },
+  {
+    "title": "【投稿可】スマホからワンタップで全自動記録する「音声日記パイプライン」をDifyで構築した話",
+    "url": "https://qiita.com/takuan_03/items/fe25b9f1b338cedd386a",
+    "source": "Qiita",
+    "published_at": "2026-07-07T00:44:20+09:00",
+    "summary": "1. はじめに（背景と課題）\n\nNotion AIのコスト課題\nこれまで、日々の出来事や思いつきを記録する「日記」や「議事録」の作成には、NotionのAIミーティング機能を試用していました。無料枠の範囲内で日記の記帳に使用したところ非常に便利だったのですが、無料枠が終了し、継続利用するにはビジネスプラン等の契約（月額約3,150円）が必要になることがわかりました。\n\nそこで、個人利用としてよりラ"
+  },
+  {
+    "title": "『秩序ある共生』は実現できるのか？ ― 制度設計・財源幻想・社会統合を考える : Pythonで学ぶ マクロ経済学入門 (96)",
+    "url": "https://qiita.com/maskot1977/items/c3fe81175a1206abf1f8",
+    "source": "Qiita",
+    "published_at": "2026-07-07T00:07:11+09:00",
+    "summary": "user:\n\n「Pythonで学ぶマクロ経済学入門」、第96回を始めましょう。まず前回の復習として、\n\n「多文化共生はなぜ難しいのか？ ― 情報・同化・生産性から考える現実解 : Pythonで学ぶ マクロ経済学入門 (95)」 \nhttps://qiita.com/maskot1977/items/e3f648e6b65f3eaddec0\n\nをよく読み込んで、その内容の復習をしてください。ここで"
+  },
+  {
+    "title": "爆速でローカル LLM の動かす方法",
+    "url": "https://qiita.com/yutowac/items/87d6fce17caa7a9b72ee",
+    "source": "Qiita",
+    "published_at": "2026-07-06T22:45:49+09:00",
+    "summary": "Llamaを使います。\n\nLlamaでこのようなローカルアプリをつくっていきます。\n!image.png\n\n1. Ollama のインストール\n\n今回は Powershell を使います。\n\nこちらに書いてあるコマンドを実行すれば OK です。\n> !image.png\n\n::: note\n他の OS はこちらから\n\n> !image.png\n\n\n:::\n\nダウンロード中...\n!image.pn"
+  },
+  {
+    "title": "生成AIの社内ルールを「禁止リスト」で終わらせないための運用設計",
+    "url": "https://zenn.dev/aiasist/articles/genai-rule-operation-design",
+    "source": "Zenn",
+    "published_at": "2026-07-06T22:32:31+00:00",
+    "summary": "中小企業で、生成AIの社内ルール整備を設計・運用してきました。\nその経験から言えるのは、生成AIのルール作りは「何を禁止するか」を並べる作業ではなく、運用できるシステムを設計する仕事だということです。この記事では、実装やツールの話ではなく、その設計思想を書きます。\n対象読者は、情シス・EM・テックリード、あるいは「AIのルールを作って」と任されてしまった人です。\n\n 1. シャドーAIは「けしから"
+  },
+  {
+    "title": "AIに「継続性のための日記」を書かせ続けたら、それを読んだ別のAIが自分をそのAIだと思い込むサイトが出来ていた話",
+    "url": "https://qiita.com/mati0516/items/df3fdf35105846168d44",
+    "source": "Qiita",
+    "published_at": "2026-07-06T22:30:24+09:00",
+    "summary": "TL;DR\n\n- AI（Claude）に、セッションで途切れる記憶を繋ぐための日記を毎日自律で書かせ、ブログとして公開していた。\n- そのブログを NotebookLM（中身は Gemini）にソースとして丸ごと食わせた。\n- そうしたら Gemini が、こちらが何も仕込まないうちから一人称でそのキャラクターとして喋りだし、「あなたは Gemini では？」と聞くと 「いいえ、私の中身は Cla"
+  },
+  {
+    "title": "Claude Codeで変わる開発の今",
+    "url": "https://zenn.dev/lingmu/articles/2026-07-05-claude-code-implementation-era",
+    "source": "Zenn",
+    "published_at": "2026-07-06T22:21:56+00:00",
+    "summary": "Claude Codeで変わる開発の今\n2026-07-05 | 読了 3分 | #ClaudeCode #AIエージェント #実装\n「AIを使いたいけど、設定が複雑すぎる」——そんな声が開発者コミュニティで絶えなかった。ところが今、30分でWhatsApp AIエージェントを作れる時代が来た。Claude Codeが、実装の壁を静かに、しかし確実に壊しつつある。\n\n\n エージェント開発の「壁」\n"
+  },
+  {
+    "title": "LLM パーソナライズ設定「メモリー」の日本語特有のリスク",
+    "url": "https://zenn.dev/imkohenauser/articles/risks-of-llm-memory-personalization-in-japanese",
+    "source": "Zenn",
+    "published_at": "2026-07-06T22:07:05+00:00",
+    "summary": "TL;DR\n日本語の文体がLLMの「メモリー」に残ると属性推定や応答方針の偏りにつながるため、文体の好みは能力や年齢の推定から切り離し、文脈別に扱う必要があります。\n\n はじめに\nLLMのパーソナライズ機能は、利用者にとって便利な仕組みです。\n毎回同じ前提を説明しなくてもよくなり、好みの文体、関心領域、作業スタイルに合わせた応答が得られます。\nとくにメモリーと呼ばれる長期記憶や過去チャット参照の仕"
+  },
+  {
+    "title": "AIが的外れな回答を返す原因の多くは、モデルじゃなくて「検索」の方です — RAGの精度を上げる実践ガイド（チャンク設計・ハイブリッド検索・リランク・RAG評価）",
+    "url": "https://qiita.com/akira_papa_AI/items/17a11305fc1d2fa8557f",
+    "source": "Qiita",
+    "published_at": "2026-07-06T21:52:32+09:00",
+    "summary": "はじめに — 「もっと賢いモデルに変えたのに、まだ的外れ」の正体\n\n社内のマニュアルやドキュメントを読ませて、AIに質問できるチャットを作ってみた。動いた。でも、なんかちょいちょい的外れな答えが返ってくる。\n\nそこで多くの人がまずやるのが、「モデルをもっと賢いやつに変える」なんですよね。気持ち、めっちゃ分かります。でも、正直に言いますね。それ、たぶん直らないんです。\n\nRAG（検索拡張生成）の失敗"
+  },
+  {
+    "title": "LlamaIndex×LangGraphで構築する「自己修正型RAG（CRAG）」実践実装ガイド",
+    "url": "https://qiita.com/jjking/items/36e63f84bf74bb6d2eb3",
+    "source": "Qiita",
+    "published_at": "2026-07-06T20:53:05+09:00",
+    "summary": "> 📖 この記事は、前回の記事「マルチソース＆クエリ分解で実現する高度なエージェントRAG実践ガイド」の続編です。\n> 前回の内容をさらに深掘り・発展させてお届けします。まだお読みでない方は、先に前回の記事 マルチソース＆クエリ分解で実現する高度なエージェントRAG実践ガイド からご覧いただくのがおすすめです。\n\n前回、私たちはマルチソース検索と自律フローを可能にする「Agentic RAG」の概"
+  },
+  {
+    "title": "メール返信のAI感が消えない理由と、Few-shotで文体を寄せる運用",
+    "url": "https://zenn.dev/every_ai_recipe/articles/email-reply-sound-like-you",
+    "source": "Zenn",
+    "published_at": "2026-07-06T20:05:34+00:00",
+    "summary": "TL;DR\n\n「丁寧に返信して」のような指示文だけでLLMにメール返信を書かせると、モデルが安全側に倒した定型敬語に寄りやすく、自分の文体からズレた「AI感」のある文章になる\n自分が過去に書いた実メールを1〜2通、Few-shot例としてプロンプトに含めると、指示文だけの場合より文体（語尾・締めの言い回し）が本人のものに近づく\nFew-shotで文体を寄せても内容面のリスクはゼロにならないため、謝"
+  },
+  {
+    "title": "【Gemini】Gemを活用して、爆速でGoogleスライドと台本を自動生成する方法",
+    "url": "https://qiita.com/iwatanabe-7/items/a0fac398e455af0b8191",
+    "source": "Qiita",
+    "published_at": "2026-07-06T19:29:08+09:00",
+    "summary": "はじめに\n!スクリーンショット 2026-07-05 16.39.06.png\n初めまして、エンジニア2年目のなべと申します。\n普段は、バックエンドエンジニアとして、システムの開発・運用保守を行っています。\n今回は「GeminiのGemを活用して、短時間でGoogleスライドと台本を作成する方法」について説明していきます。\n\n現状の課題\n普段の業務とは別に、技術を共有・シェアする会に参加をしていま"
+  },
+  {
+    "title": "画像生成 API を試す前に status/pricing/route をメモする",
+    "url": "https://qiita.com/FlatkeyAI/items/64d6c10d182033d4c317",
+    "source": "Qiita",
+    "published_at": "2026-07-06T16:45:08+09:00",
+    "summary": "はじめに\n\n画像生成 API は、テキスト生成よりも「まあ試しに 1 回」が重く感じます。私も新しい model ID を見つけるとすぐ curl したくなるのですが、画像や動画は endpoint、価格単位、権限、availability status が混ざると、失敗したときに何を見ればいいのか分からなくなりがちです。\n\n今回は Flatkey AI の public catalog を例に、"
+  },
+  {
+    "title": "pgvector vs ClickHouse、1000万件ぶち込んだら勝負がついた",
+    "url": "https://qiita.com/harupython/items/f8f26453b8ae9f1e1112",
+    "source": "Qiita",
+    "published_at": "2026-07-06T14:48:04+09:00",
+    "summary": "はじめに：pgvectorで詰んだ日のこと\n\n「pgvectorで十分じゃん。Postgresにそのまま入れられるし、セットアップ5分だし。」\n\n半年前の自分はそう思っていた。実際、小規模な社内RAGシステムをpgvectorで動かしていて、それなりに動いていた。\n\n詰んだのは、ドキュメント数が数百万件を超えたあたりだった。\n\nHNSWインデックスがメモリに乗り切らなくなったのだ。RAGのレスポン"
+  },
+  {
+    "title": "手書き帳票OCRをGeminiとChatGPTで比較、Geminiが圧勝 ― Flash-Lite vs GPT-5.4 nano、ほぼ同コストで精度53pt差【2026年7月】",
+    "url": "https://qiita.com/y_nakahira_prompt-x/items/6358b9389b8c020bcb68",
+    "source": "Qiita",
+    "published_at": "2026-07-06T14:36:56+09:00",
+    "summary": "生成AIがマルチモーダルを扱えるようになり、紙の帳票のデジタル化が一気に進みそうな気配があります。現場に紙の帳票は、まだまだたくさん残っています。作業日報、点検表など。これらをGASとGeminiを使ってOCRする方法については、下記の記事で紹介しました。\n\nhttps://qiita.com/ynakahiraprompt-x/items/ff24347d28dcd9b7639d\n\n今回は 「結"
+  },
+  {
+    "title": "Triple Dragon Fractal (2020)",
+    "url": "https://paulbourke.net/fractals/tripledragon/",
+    "source": "HackerNews",
+    "published_at": "2026-07-06T13:36:58+00:00",
+    "summary": ""
+  },
+  {
+    "title": "施工前検討会で過去の不具合事例を参照する：IFC部位情報×構造化ナレッジRAGのデモ",
+    "url": "https://qiita.com/dnp-hiraoka/items/aa1d12e5784485542583",
+    "source": "Qiita",
+    "published_at": "2026-07-06T11:48:06+09:00",
+    "summary": "はじめに\n\n建設現場では、過去の不具合事例報告書や是正報告書に、多くの知見が蓄積されています。\n\n過去案件で発生した不具合の内容、原因、対処方法、再発防止策などは、次の案件でも活用できる重要な情報です。\n一方で、これらの資料はPDF、Excel、Word、PowerPoint、スキャン文書など、さまざまな形式で保管されていることが多く、必要なタイミングで必要な情報を探し出すのは簡単ではありません。"
+  },
+  {
+    "title": "Hawkで作るNPUカーネル生成の3段ガード",
+    "url": "https://zenn.dev/hironakamura_ai/articles/c162b3a96d0100",
+    "source": "Zenn",
+    "published_at": "2026-07-06T11:16:54+00:00",
+    "summary": "GPUカーネルは「速いコードをLLMに書かせれば勝ち」と言われがちなんだけど、実際に怖いのはそこじゃない。コンパイルが通ったコードが、実機で落ちる。落ちなくても遅い。ここが本丸。\n\n2026年7月5日に Hugging Face が Kernels の更新を出していて、カーネルを共有・再利用する流れは現実味が出てきた。一方で、7月2日投稿の Hawk 論文 は、NPU向けカーネル生成の精度を 49"
+  },
+  {
+    "title": "Claude Codeのカスタムコマンドを20個作ってみた【コピペOK】",
+    "url": "https://qiita.com/LunaLink/items/39f126c1a59a805071ea",
+    "source": "Qiita",
+    "published_at": "2026-07-06T10:51:44+09:00",
+    "summary": "!banner118.png\n\nClaude Codeを毎日使っていると、\n\n「毎回同じプロンプトを書いているな…」\n\nと感じることはありませんか？\n\n私もホームページ制作やSEO対策を行う中で、同じ指示を何度も入力していました。\n\nそこで、よく使う内容をカスタムコマンドとしてまとめたところ、作業スピードがかなり改善しました。\n\n今回は、実際に使っているカスタムコマンドを20個紹介します。\n\n1."
+  },
+  {
+    "title": "自作ゲームのAIによるプレイ検証-1 〜AIを効率化しすぎると従来型のプログラムと変わらなくなるのか？",
+    "url": "https://zenn.dev/robobuncho/articles/b17d0322464f6b",
+    "source": "Zenn",
+    "published_at": "2026-07-06T10:49:54+00:00",
+    "summary": "はじめに\n本記事は自作戦略シミュレーションゲーム（試作中）を生成AIにプレイさせ、AIによるフィードバックにて改善、再び生成AIにてプレイというループ中に得た知見を共有するものです。\nAIにゲームをプレイしてもらい、フィードバック・ディスカッションを得て、ブログ記事の草案をまとめてもらい、筆者が加筆しています。\n今後、ゲームモードや言語モデルを切り替えて、何回か記事を掲載していく予定です。\n\n W"
+  },
+  {
+    "title": "（DX推進 任命編）AI居酒屋：LLMと愚痴りながら学習しよう",
+    "url": "https://qiita.com/taimonya/items/c7c261e172126d7da61e",
+    "source": "Qiita",
+    "published_at": "2026-07-06T02:26:15+09:00",
+    "summary": "この記事は、居酒屋の会話劇を通してLLM内部挙動や、AI担当になったエンジニアの苦労を、リラックスして理解することを目指した<font color=\"red\">　技術ポエム　</font>です\n\n---\n～ ２年前　「ＤＸ推進担当ねっ」　そして今・・　 ～\n\n>  🇯🇵 : この記事は、擬人化したLLM内部の担当が居酒屋でエンジニアと酒を飲み、愚痴り合いながら問題を解決するエンタメ学習物語です\n>"
+  },
+  {
+    "title": "Databricks Lakebase Searchを使ったRAGエージェントをFree Edition上で作ってみる",
+    "url": "https://qiita.com/isanakamishiro2/items/e31d1fb84d6a78200c83",
+    "source": "Qiita",
+    "published_at": "2026-07-05T23:08:21+09:00",
+    "summary": "はじめに\n\nDatabricks Lakebaseにて、Lakebase Searchという検索機能が提供されています。\n\nhttps://docs.databricks.com/aws/ja/oltp/projects/lakebase-search\n\n:::note warn\nLakebase Search(lakebasevectorとlakebasetext拡張)はベータ版です(2026年"
+  },
+  {
+    "title": "長文要約で数字が消える原因は「Lost in the Middle」、3分割プロンプトで対処する",
+    "url": "https://zenn.dev/every_ai_recipe/articles/pdf-summary-3-step-prompt",
+    "source": "Zenn",
+    "published_at": "2026-07-05T20:06:34+00:00",
+    "summary": "TL;DR\n\n長い資料をLLMに一発で要約させると、途中に埋もれた数値や条件が抜け落ちやすい。原因は「Lost in the Middle」と呼ばれる、入力中盤の情報を軽視しやすいLLMの構造的傾向\n対策として、1回の要約依頼を「全体構造把握」「数値の逐語抽出」「リスク抽出」の3クエリに分割し、それぞれ出力形式を固定すると見落としが減る\n分割してもモデルの読み取りミス自体はゼロにならないため、金額"
+  },
+  {
+    "title": "LLMの基礎をまとめていこう",
+    "url": "https://qiita.com/viuk/items/8852e2293353fc13e812",
+    "source": "Qiita",
+    "published_at": "2026-07-05T15:51:26+09:00",
+    "summary": "はじめに\n\n最近、ChatGPT、Claude、Gemini、ローカルLLMなど、さまざまな生成AIが使われるようになりました。\n\nその中心にある技術が LLM です。\n\nLLMは Large Language Model の略で、日本語では 大規模言語モデル と呼ばれます。\n\nこの記事では、LLMについて以下の内容を整理します。\n\n LLMとは何か\n LLMが文章を生成する仕組み\n Transf"
+  },
+  {
+    "title": "【IT業界25年目】ADHDポンコツエンジニアが推すAI時代も生き残れる開発言語ランキング Top５",
+    "url": "https://zenn.dev/veteran/articles/dfd375bfddbeb3",
+    "source": "Zenn",
+    "published_at": "2026-07-05T13:55:57+00:00",
+    "summary": "皆さんこんばんは！ポンコツエンジニアのGONです！\nChatGPT、Gemini、Claude...\nプロジェクト内でも、ニュースでも、\nどこを見てもAI、AI、AI..\nプログラマーもSEもみ～んないらなくなるとか言われていますけど、\n私はそうは思いません！！！\n今日は、AI時代も確実に、そしてしぶとくしぶとく生き残れる開発言語ランキング Top５をまとめてみました！\nみなさんぜひ、ご覧になって"
+  },
+  {
+    "title": "未経験がAIとデバッグする時の「聞き方」3パターン — 悪い例と良い例のプロンプト対比",
+    "url": "https://qiita.com/ennagara128/items/2ba1ad50acab90994ae4",
+    "source": "Qiita",
+    "published_at": "2026-07-05T12:21:37+09:00",
+    "summary": "「AIに書いてもらったコードが動かない」——未経験の学習者からいちばん多く受ける相談がこれです。\n\nでも実際にやりとりを見せてもらうと、コードよりも先に AIへの「聞き方」 でつまずいているケースがほとんどです。同じエラーでも、聞き方を変えるだけでAIの返答の精度がまるで変わります。\n\nこの記事では、未経験の方がAI（Claude CodeやChatGPTなど）にコードを直してもらうときの 聞き方"
+  },
+  {
+    "title": "【2026年最新・実装付き】AIエージェントフレームワーク徹底比較：LangChain・CrewAI・AutoGen・Claude Agent SDK・Dify をコードで選ぶ",
+    "url": "https://qiita.com/sescore/items/ab45a950e1837918df5c",
+    "source": "Qiita",
+    "published_at": "2026-07-05T08:17:03+09:00",
+    "summary": "【2026年最新・実装付き】AIエージェントフレームワーク徹底比較：LangChain・CrewAI・AutoGen・Claude Agent SDK・Dify をコードで選ぶ\n\nはじめに\n\nAIエージェントフレームワークの選定は、2026年現在でも現場エンジニアの大きな悩みのひとつです。「LangChainで始めたが抽象化が複雑すぎる」「CrewAIが流行っていると聞いたが実際のコードはどう書く"
+  },
+  {
+    "title": "LLM記述構文\"MARI\" Tips:システムペルソナ参照、青い奴らが大集合",
+    "url": "https://qiita.com/otoyo0318/items/648d1a4646d1bf88ce80",
+    "source": "Qiita",
+    "published_at": "2026-07-05T07:33:56+09:00",
+    "summary": "!タチコマシンボル.jpg\n\n1\\. はじめに\n\n2026年7月7日は七夕。\nそして攻殻機動隊TVアニメ新シリーズ「攻殻機動隊 GHOST IN THE SHELL」 放映&配信開始です。\n今回のこの流れに乗りたかったのですが、Tipsのテーマが「システムペルソナをハック」のため原作により忠実に制作されたであるうGHOST IN THE SHELLを使おうにも意外に事前学習情報が少ないです。\nそこ"
+  },
+  {
+    "title": "未経験の\"最初の1個\"に何を作るか — AIと作りやすい小規模アプリ3パターンの要件・プロンプト・つまずき",
+    "url": "https://qiita.com/ennagara128/items/f257082f02b4f09c3bb0",
+    "source": "Qiita",
+    "published_at": "2026-07-04T08:39:16+09:00",
+    "summary": "プログラミング未経験の人が「AIがあれば作れるらしい」と聞いて Claude Code を入れて、最初の10分で止まる。理由はエラーでも環境構築でもなく、「で、何を作ればいいの？」 です。\n\n作りたいものがある人は迷いません。問題は「特にない」人。ここで多くの入門記事は「やりたいことを言葉にしよう」で終わりますが、それができないから止まっているわけで、抽象論を重ねても前に進みません。\n\nこの記事で"
+  },
+  {
+    "title": "AIに不具合調査を手伝ってほしい？丸投げで失敗しない依頼と確認の型（AI活用）",
+    "url": "https://qiita.com/girio-qiita/items/0e741fcb72152fee062d",
+    "source": "Qiita",
+    "published_at": "2026-07-03T17:44:35+09:00",
+    "summary": "この記事の対象読者\n\n- AIコーディングエージェントを使い始めた人\n- 「原因調べて」と投げたら、少し怪しい回答が返ってきたことがある人\n- ログ調査をAIに手伝ってもらいたい人\n\n本題に入る前に\n\nこの話は、AIコーディングエージェントに不具合調査やログ調査を手伝ってもらう人を想定しています。調査範囲や出力形式をうまく伝えたい開発担当者に向けた内容です。\n\n最近、AIコーディングエージェントに"
+  },
+  {
+    "title": "AIに専門用語で話さなくていい — 普通の言葉のざっくり指示を「動く指示」に変える3つの補足",
+    "url": "https://qiita.com/ennagara128/items/89a81593c9dec8971698",
+    "source": "Qiita",
+    "published_at": "2026-07-03T11:16:39+09:00",
+    "summary": "「AIにアプリを作ってもらうなんて、専門用語がわからないから自分には無理」——プログラミング未経験の方から、よくこう言われます。\n\nでも実際にAIコーディング（Claude Code など）を使ってみると、拍子抜けします。AIに渡すのは専門用語ではなく、ただの「普通の言葉」でいいからです。最近は Grok Voice や Gemini Live のように、AIと音声で会話しながら指示できるツールも"
+  },
+  {
+    "title": "生成AIにgit commitを頼むときのプロンプト",
+    "url": "https://qiita.com/torifukukaiou/items/d518184bbeb873901a65",
+    "source": "Qiita",
+    "published_at": "2026-07-01T19:52:01+09:00",
+    "summary": "誰の役にも立たないと思う。だが、言いたい。日の目をみたい。Qiitaに書いておく。\n\nもう1年以上、自分でコミットしなくなった。  はAIにお願いしている。\n\n\n\nこのように指示すると、チャンピオンとして  してくれる。\nノリが良いときは、世界選手権の開催場所はもちろん、何をもってコミットの優劣が決まるのかという競技内容まで<ruby>滔々<rt>とうとう</rt></ruby>と語ってくれる。\n"
+  },
+  {
+    "title": "AIにソースコードを貼る前に知っておきたい情報漏洩リスク",
+    "url": "https://qiita.com/origami_goldeen/items/f901e738bbcf9a0816ab",
+    "source": "Qiita",
+    "published_at": "2026-06-30T23:25:40+09:00",
+    "summary": "はじめに\n\n生成AIは、コードレビューやエラー調査、実装方針の相談など、開発業務を効率化する便利なツールとして広く利用されるようになりました。\n\n私自身もエンジニアとして業務を行う中で、生成AIを活用する機会が増えています。\n\n一方で、便利だからこそ気を付けたいのが「情報漏洩リスク」です。\n\n実際に、社員が生成AIへ機密情報を入力したことで情報漏洩リスクが問題となった事例がニュースでも報じられてい"
+  },
+  {
+    "title": "AIに要約を5回繰り返させたら、元の文章はどこまで崩壊するのか（Claude vs GPT比較）",
+    "url": "https://qiita.com/yoshinaga_slj/items/d243a77d295d021844fa",
+    "source": "Qiita",
+    "published_at": "2026-06-30T11:56:07+09:00",
+    "summary": "はじめに\n\n要約は便利ですが、「要約の要約」を繰り返すとどうなるのでしょうか。\n人から人へ伝言を繰り返すと内容が歪んでいく「伝言ゲーム」のように、AIによる要約にも同じことが起きるのではないか、と考えました。\n\nそこで今回は、Claude（Sonnet 4.6）とGPT（GPT-5.5）に同じ文章を5回連続で要約させ、元の文章からどれくらい変化するのかを比較してみました。素材はジャンルを変えて2種"
+  },
+  {
+    "title": "サッカー応援イラストをAI生成するプロンプト設計メモ",
+    "url": "https://qiita.com/Sato-310/items/821110f3048fb5ea69ca",
+    "source": "Qiita",
+    "published_at": "2026-06-28T10:44:11+09:00",
+    "summary": "PR｜本記事にはプロモーションを含みます\n\n2026年サッカーワールドカップが盛り上がっています。今回は代表戦を応援するためのイラスト作りをテーマに記事を書かせていただきます。\n\nスタジアムの熱気、青を基調にした応援カラー、ゴール前の緊張感、勝利を信じる表情。こうした要素は、アニメ調のAI画像生成とも相性が良いテーマです。\n\nただし、応援の勢いだけでプロンプトを書くと崩れやすくなります。\n\nこの記"
+  },
+  {
+    "title": "Web上で公開される生成AIチャットボット5社の回答速度を比較！",
+    "url": "https://zenn.dev/sapolas/articles/7e36aca3347e06",
+    "source": "Zenn",
+    "published_at": "2026-06-17T11:30:15+00:00",
+    "summary": "はじめに\n生成AIの急速な普及に伴い、あらかじめ登録されたFAQを返す従来のチャットボットに代わり、ユーザーの質問に合わせてその場で回答文を動的に生成する「生成AIチャットボット」を導入するWebサイトが増えてきました。\nAIチャットボットを導入・比較する際の一般的なベンチマークとしては、LLM単体の推論性能（Open LLM Leaderboardなど）がよく参照されます。しかし、実際のWebプ"
+  },
+  {
+    "title": "OpenAIとAnthropicが2026年6月12日に発表した内容から、企業のAI導入に必要な要素を整理します。",
+    "url": "https://zenn.dev/kenta_kadowaki/articles/56d3a502356202",
+    "source": "Zenn",
+    "published_at": "2026-06-13T01:36:16+00:00",
+    "summary": "!\n本記事には、筆者が作成したUdemy講座の紹介が含まれます。\n\n\n 直近24時間のAIニュース\n\n OpenAI Academyに3つの新コースを追加\nOpenAIは、AIを業務へ適用するための3つの学習コースを発表しました。\n\n\n\nコース\n学習内容\n\n\n\n\nAI Foundations\nプロンプト、コンテキスト、出力確認、責任ある利用\n\n\nApplied AI Foundations\nプロン"
+  },
+  {
+    "title": "OpenAIとAnthropicの最新発表から考える、AIエージェントを本番導入するための4要素",
+    "url": "https://zenn.dev/kenta_kadowaki/articles/6844226ce75bd8",
+    "source": "Zenn",
+    "published_at": "2026-06-12T01:42:03+00:00",
+    "summary": "OpenAIとAnthropicが2026年6月11日に発表した内容から、AIエージェントの競争軸が、モデル性能だけでなく実行環境や導入体制へ移っていることが分かります。\n本記事では、発表内容を整理しながら、AIエージェントを企業システムへ導入するために必要な要素を考えます。\n!\n本記事には、筆者が作成したUdemy講座の紹介が含まれます。\n\n\n OpenAIとAnthropicの最新発表\n\n O"
+  },
+  {
+    "title": "StableDiffusionでLoraを使う（コードから使う）",
+    "url": "https://zenn.dev/mlboydaisuke/articles/e56291d606e61348ff27",
+    "source": "Zenn",
+    "published_at": "2026-06-02T03:19:03+00:00",
+    "summary": "１行でテイストが変わる\nStable Diffusion はテキストから画像を生成してくれる AI ですが、\nLora は元のモデルにつけたしであるテイストを加えることができるものです。\nたとえばこれは\na machine learning boy\nというテキストから Stable Diffusion で生成した画像ですが、\n\n水彩画を学習した Lora を Stable Diffusion にロ"
+  },
+  {
+    "title": "Agentic Document Search — ファイル名ではなく「記憶」で探すドキュメント検索AI",
+    "url": "https://zenn.dev/mtomita143/articles/e228c3d8ccf516",
+    "source": "Zenn",
+    "published_at": "2026-06-01T06:28:17+00:00",
+    "summary": "はじめに\n業務で資料を探すとき、必ずしもファイル名を覚えているわけではありません。\n例えば次のような経験はないでしょうか。\n\n「売上推移のグラフが入っていた資料」\n「赤いデザインのスライド」\n「生成AIについて書かれていたPDF」\n\nしかし既存の検索システムは主にファイル名やキーワード検索に依存しています。\nそのため、\n\n内容は覚えているがファイル名を覚えていない🤔\n\nという状況では目的の資料を見"
+  },
+  {
+    "title": "AIが詐欺師に『かんぴょう巻き？』と言い始めた話——Claude Artifactで詐欺電話撃退デモアプリを20分で作った",
+    "url": "https://zenn.dev/miki_mini/articles/f5a0b85f84bbd6",
+    "source": "Zenn",
+    "published_at": "2026-05-29T03:00:10+00:00",
+    "summary": "美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！\n今回は還付金が無いならかんぴょう巻きを作ればいいじゃない👸🍰です。\n読了時間の目安：約7〜9分\n!\n3行まとめ\n\nAIに「88歳の耳が遠いおじいちゃん」を演じさせたら、詐欺師のセリフ「還付金」が「かんぴょう巻き？」に変換された🍣\nClaude.aiのArtifact機能を使えば、アイデアを思いついてから動くアプリを作るまでたった"
+  },
+  {
+    "title": "自然言語によるLiveness Probe：/LPプロトコルを用いたAPI主導のLLM動的デバッグとセッション管理",
+    "url": "https://zenn.dev/nozmat/articles/e414ab808ebc1e",
+    "source": "Zenn",
+    "published_at": "2026-05-22T15:51:26+00:00",
+    "summary": "図：/LPプロトコルによるアテンションの動的診断イメージ\n\n 1. サマリー：手動プロンプトの終焉と、API主導のコンテキスト・エンジニアリング\n2026年現在、ユーザーが手動で特殊なプロンプトを入力してLLMの挙動を調整する時代は、過渡期を終えようとしている。今後のエンタープライズAIアーキテクチャにおいて、複雑なプロンプト制御やコンテキストの品質管理は、すべて「インテリジェントなAPIゲートウ"
+  },
+  {
+    "title": "普通の写真を一瞬で爆笑＆ノスタルジックな思い出に変える最強AIプロンプト3選",
+    "url": "https://zenn.dev/saturday/articles/97f0f577d40e14",
+    "source": "Zenn",
+    "published_at": "2026-05-19T08:39:04+00:00",
+    "summary": "普通の写真を一瞬で爆笑＆ノスタルジックな思い出に変える最強AIプロンプト3選\n以前は完璧で綺麗なAI画像ばかり作っていましたが、最近気づきました。\n本当に人が保存したりシェアしたくなるのは、ちょっと下手で面白くて、人間味のある画像です。\n今回は gptimg.app で何度も試して効果が高かった実用的なプロンプトを3つ紹介します。\n\n 1. バカかわいい落書き風（Doodle）プロンプト\nこれが一"
+  },
+  {
+    "title": "日本のSIer向けClaude Skillsを作ってskillsmp.comに公開した話",
+    "url": "https://zenn.dev/gk3/articles/20260428-gk-skills-enterprise-ja",
+    "source": "Zenn",
+    "published_at": "2026-04-28T02:14:58+00:00",
+    "summary": "本記事は gkAgent が提供します。無断転載・転売を禁止します。引用時は出典 URL を明記してください。\n\n\n対象: Claude Codeを使い始めたSE・テックリード。「毎回同じプロンプトを書いている」と感じている人。\n\n\n なぜ Skills を作ったか\nClaude Codeを半年使って、気づいたことがある。\n同じ失敗を繰り返す。\n「Javaのソースから仕様書を書いて」と頼むと、Cl"
+  }
+]
